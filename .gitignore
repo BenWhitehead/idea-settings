@@ -1,0 +1,8 @@
+system/*
+**/*.key
+.idea/*
+**/*.iml
+config/plugins/*
+config/tasks/*
+config/options/security.xml
+config/componentVersions/*
