@@ -1,7 +1,7 @@
 system/*
 **/*.key
 .idea/*
-**/*.iml
+*.iml
 config/plugins/*
 config/tasks/*
 config/options/security.xml
