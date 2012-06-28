@@ -29,6 +29,8 @@
       <option name="GROOVY_STATEMENT" value="false" />
       <option name="GROOVY_DECLARATION" value="false" />
       <option name="OGNL" value="false" />
+      <option name="ACTION_SCRIPT" value="false" />
+      <option name="MXML" value="false" />
     </context>
   </template>
   <template name="ps" value="private String " description="private String" toReformat="false" toShortenFQNames="true">
@@ -60,6 +62,8 @@
       <option name="GROOVY_STATEMENT" value="false" />
       <option name="GROOVY_DECLARATION" value="false" />
       <option name="OGNL" value="false" />
+      <option name="ACTION_SCRIPT" value="false" />
+      <option name="MXML" value="false" />
     </context>
   </template>
   <template name="for" value="for(int $INDEX$ = 0; $INDEX$ &lt; $MAX$; $INDEX$++) {&#10;  $END$&#10;}" description="Stub A Generic For Loop" toReformat="true" toShortenFQNames="true">
@@ -93,6 +97,8 @@
       <option name="GROOVY_STATEMENT" value="false" />
       <option name="GROOVY_DECLARATION" value="false" />
       <option name="OGNL" value="false" />
+      <option name="ACTION_SCRIPT" value="false" />
+      <option name="MXML" value="false" />
     </context>
   </template>
 </templateSet>
