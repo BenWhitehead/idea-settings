@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <keymap version="1" name="BenWhitehead" parent="$default">
-  <action id="ActivateAntBuildToolWindow">
+  <action id="ActivateMavenProjectsToolWindow">
     <keyboard-shortcut first-keystroke="alt 7" />
   </action>
   <action id="ActivateStructureToolWindow" />
