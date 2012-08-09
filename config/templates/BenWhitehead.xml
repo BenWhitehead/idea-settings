@@ -76,7 +76,7 @@
     <variable name="INDEX" expression="suggestIndexName()" defaultValue="" alwaysStopAt="true" />
     <variable name="MAX" expression="" defaultValue="" alwaysStopAt="true" />
     <context>
-      <option name="JAVA_CODE" value="true" />
+      <option name="JAVA_CODE" value="false" />
       <option name="JAVA_COMMENT" value="false" />
       <option name="JAVA_STRING" value="false" />
       <option name="XML" value="false" />
@@ -98,7 +98,7 @@
       <option name="HAML" value="false" />
       <option name="JAVA_STATEMENT" value="true" />
       <option name="JAVA_EXPRESSION" value="true" />
-      <option name="JAVA_DECLARATION" value="true" />
+      <option name="JAVA_DECLARATION" value="false" />
       <option name="GROOVY_EXPRESSION" value="false" />
       <option name="GROOVY_STATEMENT" value="false" />
       <option name="GROOVY_DECLARATION" value="false" />
