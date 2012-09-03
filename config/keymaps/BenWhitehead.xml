@@ -36,6 +36,9 @@
     <keyboard-shortcut first-keystroke="shift control E" />
   </action>
   <action id="FindUsagesInFile" />
+  <action id="Git.Push">
+    <keyboard-shortcut first-keystroke="shift control K" />
+  </action>
   <action id="Groovy.Doc.Generating" />
   <action id="GuiDesigner.ExpandSelection">
     <keyboard-shortcut first-keystroke="control E" />
