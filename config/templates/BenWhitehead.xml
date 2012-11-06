@@ -34,6 +34,11 @@
       <option name="CSS_PROPERTY_VALUE" value="false" />
       <option name="CSS_DECLARATION_BLOCK" value="false" />
       <option name="CSS_RULESET_LIST" value="false" />
+      <option name="KOTLIN" value="false" />
+      <option name="KOTLIN_NAMESPACE" value="false" />
+      <option name="KOTLIN_STATEMENT" value="false" />
+      <option name="KOTLIN_CLASS" value="false" />
+      <option name="KOTLIN_EXPRESSION" value="false" />
     </context>
   </template>
   <template name="ps" value="private String " description="private String" toReformat="false" toShortenFQNames="true">
@@ -70,6 +75,11 @@
       <option name="CSS_PROPERTY_VALUE" value="false" />
       <option name="CSS_DECLARATION_BLOCK" value="false" />
       <option name="CSS_RULESET_LIST" value="false" />
+      <option name="KOTLIN" value="false" />
+      <option name="KOTLIN_NAMESPACE" value="false" />
+      <option name="KOTLIN_STATEMENT" value="false" />
+      <option name="KOTLIN_CLASS" value="false" />
+      <option name="KOTLIN_EXPRESSION" value="false" />
     </context>
   </template>
   <template name="for" value="for(int $INDEX$ = 0; $INDEX$ &lt; $MAX$; $INDEX$++) {&#10;  $END$&#10;}" description="Stub A Generic For Loop" toReformat="true" toShortenFQNames="true">
@@ -108,6 +118,11 @@
       <option name="CSS_PROPERTY_VALUE" value="false" />
       <option name="CSS_DECLARATION_BLOCK" value="false" />
       <option name="CSS_RULESET_LIST" value="false" />
+      <option name="KOTLIN" value="false" />
+      <option name="KOTLIN_NAMESPACE" value="false" />
+      <option name="KOTLIN_STATEMENT" value="false" />
+      <option name="KOTLIN_CLASS" value="false" />
+      <option name="KOTLIN_EXPRESSION" value="false" />
     </context>
   </template>
   <template name="id" value="    @javax.persistence.Id&#10;    @javax.persistence.Column(name = &quot;id&quot;)&#10;    //    @GeneratedValue(generator = &quot;$SEQ_NAME$_id_seq&quot;)&#10;    //    @SequenceGenerator(name = &quot;$SEQ_NAME$_id_seq&quot;, sequenceName = &quot;$SEQ_NAME$_id_seq&quot;, allocationSize = 1)&#10;    private $ID_TYPE$ id;&#10;    $END$" description="Create a JPA Id Field" toReformat="true" toShortenFQNames="true">
@@ -145,6 +160,11 @@
       <option name="GSP" value="false" />
       <option name="HAML" value="false" />
       <option name="OTHER" value="false" />
+      <option name="KOTLIN" value="false" />
+      <option name="KOTLIN_NAMESPACE" value="false" />
+      <option name="KOTLIN_STATEMENT" value="false" />
+      <option name="KOTLIN_CLASS" value="false" />
+      <option name="KOTLIN_EXPRESSION" value="false" />
     </context>
   </template>
 </templateSet>

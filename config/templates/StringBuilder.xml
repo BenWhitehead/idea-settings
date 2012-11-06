@@ -34,6 +34,11 @@
       <option name="CSS_PROPERTY_VALUE" value="false" />
       <option name="CSS_DECLARATION_BLOCK" value="false" />
       <option name="CSS_RULESET_LIST" value="false" />
+      <option name="KOTLIN" value="false" />
+      <option name="KOTLIN_NAMESPACE" value="false" />
+      <option name="KOTLIN_STATEMENT" value="false" />
+      <option name="KOTLIN_CLASS" value="false" />
+      <option name="KOTLIN_EXPRESSION" value="false" />
     </context>
   </template>
   <template name="sba" value="sb.append($END$);" description="sb.append();" toReformat="false" toShortenFQNames="true">
@@ -70,6 +75,11 @@
       <option name="CSS_PROPERTY_VALUE" value="false" />
       <option name="CSS_DECLARATION_BLOCK" value="false" />
       <option name="CSS_RULESET_LIST" value="false" />
+      <option name="KOTLIN" value="false" />
+      <option name="KOTLIN_NAMESPACE" value="false" />
+      <option name="KOTLIN_STATEMENT" value="false" />
+      <option name="KOTLIN_CLASS" value="false" />
+      <option name="KOTLIN_EXPRESSION" value="false" />
     </context>
   </template>
   <template name="sban" value="sb.append(&quot;\n&quot;);" description="Append a new line character to the StringBuilder" toReformat="false" toShortenFQNames="true">
@@ -106,6 +116,11 @@
       <option name="CSS_PROPERTY_VALUE" value="false" />
       <option name="CSS_DECLARATION_BLOCK" value="false" />
       <option name="CSS_RULESET_LIST" value="false" />
+      <option name="KOTLIN" value="false" />
+      <option name="KOTLIN_NAMESPACE" value="false" />
+      <option name="KOTLIN_STATEMENT" value="false" />
+      <option name="KOTLIN_CLASS" value="false" />
+      <option name="KOTLIN_EXPRESSION" value="false" />
     </context>
   </template>
   <template name="sbas" value="sb.append(&quot;$END$&quot;);" description="Append a string to the StringBuilder" toReformat="false" toShortenFQNames="true">
@@ -142,6 +157,11 @@
       <option name="CSS_PROPERTY_VALUE" value="false" />
       <option name="CSS_DECLARATION_BLOCK" value="false" />
       <option name="CSS_RULESET_LIST" value="false" />
+      <option name="KOTLIN" value="false" />
+      <option name="KOTLIN_NAMESPACE" value="false" />
+      <option name="KOTLIN_STATEMENT" value="false" />
+      <option name="KOTLIN_CLASS" value="false" />
+      <option name="KOTLIN_EXPRESSION" value="false" />
     </context>
   </template>
   <template name="sbat" value="sb.append(&quot;\t&quot;);" description="Append a tab character to the StringBuilder" toReformat="false" toShortenFQNames="true">
@@ -178,6 +198,11 @@
       <option name="CSS_PROPERTY_VALUE" value="false" />
       <option name="CSS_DECLARATION_BLOCK" value="false" />
       <option name="CSS_RULESET_LIST" value="false" />
+      <option name="KOTLIN" value="false" />
+      <option name="KOTLIN_NAMESPACE" value="false" />
+      <option name="KOTLIN_STATEMENT" value="false" />
+      <option name="KOTLIN_CLASS" value="false" />
+      <option name="KOTLIN_EXPRESSION" value="false" />
     </context>
   </template>
   <template name="sbav" value="sb.append(&quot;$EXPR_COPY$ = &quot;).append($EXPR$);" description="Append a value to a StringBuilder" toReformat="false" toShortenFQNames="true">
@@ -216,6 +241,11 @@
       <option name="CSS_PROPERTY_VALUE" value="false" />
       <option name="CSS_DECLARATION_BLOCK" value="false" />
       <option name="CSS_RULESET_LIST" value="false" />
+      <option name="KOTLIN" value="false" />
+      <option name="KOTLIN_NAMESPACE" value="false" />
+      <option name="KOTLIN_STATEMENT" value="false" />
+      <option name="KOTLIN_CLASS" value="false" />
+      <option name="KOTLIN_EXPRESSION" value="false" />
     </context>
   </template>
   <template name="sbts" value="sb.toString();$END$" description="StringBuilder.toString()" toReformat="true" toShortenFQNames="true">
@@ -251,6 +281,11 @@
       <option name="CSS_PROPERTY_VALUE" value="false" />
       <option name="CSS_DECLARATION_BLOCK" value="false" />
       <option name="CSS_RULESET_LIST" value="false" />
+      <option name="KOTLIN" value="false" />
+      <option name="KOTLIN_NAMESPACE" value="false" />
+      <option name="KOTLIN_STATEMENT" value="false" />
+      <option name="KOTLIN_CLASS" value="false" />
+      <option name="KOTLIN_EXPRESSION" value="false" />
     </context>
   </template>
 </templateSet>
