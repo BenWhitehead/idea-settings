@@ -7,6 +7,7 @@
     <option name="ANTIALIASING_IN_EDITOR" value="false" />
     <option name="MAX_CLIPBOARD_CONTENTS" value="20" />
     <option name="OVERRIDE_NONIDEA_LAF_FONTS" value="true" />
+    <option name="SHOW_DIRECTORY_FOR_NON_UNIQUE_FILENAMES" value="true" />
   </component>
 </application>
 

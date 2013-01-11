@@ -5,76 +5,12 @@
     <variable name="CALLEE" expression="" defaultValue="" alwaysStopAt="true" />
     <variable name="METHOD" expression="" defaultValue="" alwaysStopAt="true" />
     <context>
-      <option name="HTML_TEXT" value="false" />
-      <option name="HTML" value="false" />
-      <option name="XSL_TEXT" value="false" />
-      <option name="XML" value="false" />
-      <option name="JAVA_CODE" value="false" />
-      <option name="JAVA_STATEMENT" value="false" />
-      <option name="JAVA_EXPRESSION" value="false" />
-      <option name="JAVA_DECLARATION" value="false" />
-      <option name="JAVA_COMMENT" value="false" />
-      <option name="JAVA_STRING" value="false" />
-      <option name="COMPLETION" value="false" />
-      <option name="CSS" value="false" />
-      <option name="JSP" value="false" />
-      <option name="JAVA_SCRIPT" value="false" />
-      <option name="SQL" value="false" />
-      <option name="ColdFusion" value="false" />
-      <option name="GROOVY" value="false" />
-      <option name="GROOVY_EXPRESSION" value="false" />
-      <option name="GROOVY_STATEMENT" value="false" />
-      <option name="GROOVY_DECLARATION" value="false" />
-      <option name="OGNL" value="false" />
-      <option name="MAVEN" value="false" />
-      <option name="ASPECTJ" value="false" />
-      <option name="ACTION_SCRIPT" value="false" />
-      <option name="MXML" value="false" />
-      <option name="GSP" value="false" />
-      <option name="KOTLIN" value="false" />
-      <option name="KOTLIN_NAMESPACE" value="false" />
-      <option name="KOTLIN_STATEMENT" value="false" />
-      <option name="KOTLIN_CLASS" value="false" />
-      <option name="KOTLIN_EXPRESSION" value="false" />
-      <option name="HAML" value="false" />
       <option name="OTHER" value="true" />
     </context>
   </template>
   <template name="seqopt" value="opt $CONDITION$&#10;    $END$&#10;end" description="opt block for seq" toReformat="false" toShortenFQNames="true">
     <variable name="CONDITION" expression="" defaultValue="" alwaysStopAt="true" />
     <context>
-      <option name="HTML_TEXT" value="false" />
-      <option name="HTML" value="false" />
-      <option name="XSL_TEXT" value="false" />
-      <option name="XML" value="false" />
-      <option name="JAVA_CODE" value="false" />
-      <option name="JAVA_STATEMENT" value="false" />
-      <option name="JAVA_EXPRESSION" value="false" />
-      <option name="JAVA_DECLARATION" value="false" />
-      <option name="JAVA_COMMENT" value="false" />
-      <option name="JAVA_STRING" value="false" />
-      <option name="COMPLETION" value="false" />
-      <option name="CSS" value="false" />
-      <option name="JSP" value="false" />
-      <option name="JAVA_SCRIPT" value="false" />
-      <option name="SQL" value="false" />
-      <option name="ColdFusion" value="false" />
-      <option name="GROOVY" value="false" />
-      <option name="GROOVY_EXPRESSION" value="false" />
-      <option name="GROOVY_STATEMENT" value="false" />
-      <option name="GROOVY_DECLARATION" value="false" />
-      <option name="OGNL" value="false" />
-      <option name="MAVEN" value="false" />
-      <option name="ASPECTJ" value="false" />
-      <option name="ACTION_SCRIPT" value="false" />
-      <option name="MXML" value="false" />
-      <option name="GSP" value="false" />
-      <option name="KOTLIN" value="false" />
-      <option name="KOTLIN_NAMESPACE" value="false" />
-      <option name="KOTLIN_STATEMENT" value="false" />
-      <option name="KOTLIN_CLASS" value="false" />
-      <option name="KOTLIN_EXPRESSION" value="false" />
-      <option name="HAML" value="false" />
       <option name="OTHER" value="true" />
     </context>
   </template>
@@ -82,39 +18,16 @@
     <variable name="CONDITION1" expression="" defaultValue="" alwaysStopAt="true" />
     <variable name="CONDITION2" expression="" defaultValue="" alwaysStopAt="true" />
     <context>
-      <option name="HTML_TEXT" value="false" />
-      <option name="HTML" value="false" />
-      <option name="XSL_TEXT" value="false" />
-      <option name="XML" value="false" />
-      <option name="JAVA_CODE" value="false" />
-      <option name="JAVA_STATEMENT" value="false" />
-      <option name="JAVA_EXPRESSION" value="false" />
-      <option name="JAVA_DECLARATION" value="false" />
-      <option name="JAVA_COMMENT" value="false" />
-      <option name="JAVA_STRING" value="false" />
-      <option name="COMPLETION" value="false" />
-      <option name="CSS" value="false" />
-      <option name="JSP" value="false" />
-      <option name="JAVA_SCRIPT" value="false" />
-      <option name="SQL" value="false" />
-      <option name="ColdFusion" value="false" />
-      <option name="GROOVY" value="false" />
-      <option name="GROOVY_EXPRESSION" value="false" />
-      <option name="GROOVY_STATEMENT" value="false" />
-      <option name="GROOVY_DECLARATION" value="false" />
-      <option name="OGNL" value="false" />
-      <option name="MAVEN" value="false" />
-      <option name="ASPECTJ" value="false" />
-      <option name="ACTION_SCRIPT" value="false" />
-      <option name="MXML" value="false" />
-      <option name="GSP" value="false" />
-      <option name="KOTLIN" value="false" />
-      <option name="KOTLIN_NAMESPACE" value="false" />
-      <option name="KOTLIN_STATEMENT" value="false" />
-      <option name="KOTLIN_CLASS" value="false" />
-      <option name="KOTLIN_EXPRESSION" value="false" />
-      <option name="HAML" value="false" />
       <option name="OTHER" value="true" />
+    </context>
+  </template>
+  <template name="resp" value="javax.ws.rs.core.Response.status(javax.ws.rs.core.Response.Status.$status$).$END$build()" description="Stub a JAX-RS Response" toReformat="false" toShortenFQNames="true">
+    <variable name="status" expression="completeSmart()" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="JAVA_EXPRESSION" value="true" />
+      <option name="JAVA_DECLARATION" value="true" />
+      <option name="JAVA_STATEMENT" value="true" />
+      <option name="COMPLETION" value="true" />
     </context>
   </template>
 </templateSet>
