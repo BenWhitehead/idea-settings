@@ -1,3 +1,3 @@
 /**
- * @author ${USER}
+ * @author Ben Whitehead
  */

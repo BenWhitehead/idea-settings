@@ -2,77 +2,77 @@
 <templateSet group="StringBuilder">
   <template name="SB" value="final StringBuilder sb = new StringBuilder();" description="final StringBuilder sb = new StringBuilder();" toReformat="false" toShortenFQNames="true">
     <context>
+      <option name="JAVA_STRING" value="true" />
       <option name="JAVA_COMMENT" value="true" />
       <option name="JAVA_EXPRESSION" value="true" />
-      <option name="JAVA_STRING" value="true" />
-      <option name="JAVA_DECLARATION" value="true" />
+      <option name="COMPLETION" value="true" />
       <option name="JAVA_STATEMENT" value="true" />
       <option name="JAVA_CODE" value="true" />
-      <option name="COMPLETION" value="true" />
+      <option name="JAVA_DECLARATION" value="true" />
     </context>
   </template>
   <template name="sba" value="sb.append($END$);" description="sb.append();" toReformat="false" toShortenFQNames="true">
     <context>
+      <option name="JAVA_STRING" value="true" />
       <option name="JAVA_COMMENT" value="true" />
       <option name="JAVA_EXPRESSION" value="true" />
-      <option name="JAVA_STRING" value="true" />
-      <option name="JAVA_DECLARATION" value="true" />
+      <option name="COMPLETION" value="true" />
       <option name="JAVA_STATEMENT" value="true" />
       <option name="JAVA_CODE" value="true" />
-      <option name="COMPLETION" value="true" />
+      <option name="JAVA_DECLARATION" value="true" />
     </context>
   </template>
   <template name="sban" value="sb.append(&quot;\n&quot;);" description="Append a new line character to the StringBuilder" toReformat="false" toShortenFQNames="true">
     <context>
+      <option name="JAVA_STRING" value="true" />
       <option name="JAVA_COMMENT" value="true" />
       <option name="JAVA_EXPRESSION" value="true" />
-      <option name="JAVA_STRING" value="true" />
-      <option name="JAVA_DECLARATION" value="true" />
+      <option name="COMPLETION" value="true" />
       <option name="JAVA_STATEMENT" value="true" />
       <option name="JAVA_CODE" value="true" />
-      <option name="COMPLETION" value="true" />
+      <option name="JAVA_DECLARATION" value="true" />
     </context>
   </template>
   <template name="sbas" value="sb.append(&quot;$END$&quot;);" description="Append a string to the StringBuilder" toReformat="false" toShortenFQNames="true">
     <context>
+      <option name="JAVA_STRING" value="true" />
       <option name="JAVA_COMMENT" value="true" />
       <option name="JAVA_EXPRESSION" value="true" />
-      <option name="JAVA_STRING" value="true" />
-      <option name="JAVA_DECLARATION" value="true" />
+      <option name="COMPLETION" value="true" />
       <option name="JAVA_STATEMENT" value="true" />
       <option name="JAVA_CODE" value="true" />
-      <option name="COMPLETION" value="true" />
+      <option name="JAVA_DECLARATION" value="true" />
     </context>
   </template>
   <template name="sbat" value="sb.append(&quot;\t&quot;);" description="Append a tab character to the StringBuilder" toReformat="false" toShortenFQNames="true">
     <context>
+      <option name="JAVA_STRING" value="true" />
       <option name="JAVA_COMMENT" value="true" />
       <option name="JAVA_EXPRESSION" value="true" />
-      <option name="JAVA_STRING" value="true" />
-      <option name="JAVA_DECLARATION" value="true" />
+      <option name="COMPLETION" value="true" />
       <option name="JAVA_STATEMENT" value="true" />
       <option name="JAVA_CODE" value="true" />
-      <option name="COMPLETION" value="true" />
+      <option name="JAVA_DECLARATION" value="true" />
     </context>
   </template>
   <template name="sbav" value="sb.append(&quot;$EXPR_COPY$ = &quot;).append($EXPR$);" description="Append a value to a StringBuilder" toReformat="false" toShortenFQNames="true">
     <variable name="EXPR" expression="variableOfType(&quot;&quot;)" defaultValue="&quot;expr&quot;" alwaysStopAt="true" />
     <variable name="EXPR_COPY" expression="EXPR" defaultValue="" alwaysStopAt="false" />
     <context>
+      <option name="JAVA_STRING" value="true" />
       <option name="JAVA_COMMENT" value="true" />
       <option name="JAVA_EXPRESSION" value="true" />
-      <option name="JAVA_STRING" value="true" />
-      <option name="JAVA_DECLARATION" value="true" />
+      <option name="COMPLETION" value="true" />
       <option name="JAVA_STATEMENT" value="true" />
       <option name="JAVA_CODE" value="true" />
-      <option name="COMPLETION" value="true" />
+      <option name="JAVA_DECLARATION" value="true" />
     </context>
   </template>
   <template name="sbts" value="sb.toString();$END$" description="StringBuilder.toString()" toReformat="true" toShortenFQNames="true">
     <context>
       <option name="JAVA_EXPRESSION" value="true" />
-      <option name="JAVA_DECLARATION" value="true" />
       <option name="JAVA_STATEMENT" value="true" />
+      <option name="JAVA_DECLARATION" value="true" />
     </context>
   </template>
 </templateSet>

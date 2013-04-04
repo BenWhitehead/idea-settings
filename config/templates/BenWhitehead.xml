@@ -2,24 +2,24 @@
 <templateSet group="BenWhitehead">
   <template name="pss" value="private static String" description="private static String" toReformat="false" toShortenFQNames="true">
     <context>
+      <option name="JAVA_STRING" value="true" />
       <option name="JAVA_COMMENT" value="true" />
       <option name="JAVA_EXPRESSION" value="true" />
-      <option name="JAVA_STRING" value="true" />
-      <option name="JAVA_DECLARATION" value="true" />
+      <option name="COMPLETION" value="true" />
       <option name="JAVA_STATEMENT" value="true" />
       <option name="JAVA_CODE" value="true" />
-      <option name="COMPLETION" value="true" />
+      <option name="JAVA_DECLARATION" value="true" />
     </context>
   </template>
   <template name="ps" value="private String " description="private String" toReformat="false" toShortenFQNames="true">
     <context>
+      <option name="JAVA_STRING" value="true" />
       <option name="JAVA_COMMENT" value="true" />
       <option name="JAVA_EXPRESSION" value="true" />
-      <option name="JAVA_STRING" value="true" />
-      <option name="JAVA_DECLARATION" value="true" />
+      <option name="COMPLETION" value="true" />
       <option name="JAVA_STATEMENT" value="true" />
       <option name="JAVA_CODE" value="true" />
-      <option name="COMPLETION" value="true" />
+      <option name="JAVA_DECLARATION" value="true" />
     </context>
   </template>
   <template name="for" value="for(int $INDEX$ = 0; $INDEX$ &lt; $MAX$; $INDEX$++) {&#10;  $END$&#10;}" description="Stub A Generic For Loop" toReformat="true" toShortenFQNames="true">
@@ -60,6 +60,15 @@
   <template name="@cold" value="@javax.persistence.Column(name = &quot;$COLUMN_NAME$&quot;, precision = 19, scale = 2)$END$" description="Create a JPA @Column annotation for a double" toReformat="true" toShortenFQNames="true">
     <variable name="COLUMN_NAME" expression="capitalizeAndUnderscore(fieldName()).lowerCase()" defaultValue="" alwaysStopAt="true" />
     <context>
+      <option name="JAVA_DECLARATION" value="true" />
+    </context>
+  </template>
+  <template name="resp" value="javax.ws.rs.core.Response.status(javax.ws.rs.core.Response.Status.$status$).$END$build()" description="Stub a JAX-RS Response" toReformat="false" toShortenFQNames="true">
+    <variable name="status" expression="completeSmart()" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="JAVA_EXPRESSION" value="true" />
+      <option name="COMPLETION" value="true" />
+      <option name="JAVA_STATEMENT" value="true" />
       <option name="JAVA_DECLARATION" value="true" />
     </context>
   </template>
