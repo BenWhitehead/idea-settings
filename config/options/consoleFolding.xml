@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<application>
+  <component name="ConsoleFoldingSettings">
+    <option name="addedPositive">
+      <list>
+        <option value="at org.apache.catalina." />
+        <option value="at org.apache.tomcat." />
+        <option value="at org.apache.coyote." />
+        <option value="at javax.servlet.http." />
+        <option value="at org.springframework.aop." />
+        <option value="at org.springframework.test." />
+        <option value="at org.springframework.web." />
+        <option value="at org.junit.Assert." />
+      </list>
+    </option>
+  </component>
+</application>
+
