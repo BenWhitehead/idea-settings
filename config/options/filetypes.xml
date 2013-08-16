@@ -3,8 +3,16 @@
   <component name="FileTypeManager" version="11">
     <ignoreFiles list="CVS;SCCS;RCS;rcs;.DS_Store;.svn;.pyc;.pyo;*.pyc;*.pyo;.git;*.hprof;_svn;.hg;*.lib;*~;__pycache__;.bundle;*.rbc;vssver.scc;vssver2.scc;*.orig;" />
     <extensionMap>
-      <mapping pattern="*httpd.include" type="htaccess" />
+      <mapping pattern="sbt" type="Bash" />
+      <mapping pattern=".bashrc" type="Bash" />
+      <mapping ext="template" type="HTML" />
+      <mapping pattern="fstab" type="PLAIN_TEXT" />
+      <mapping ext="colors" type="PLAIN_TEXT" />
+      <mapping ext="mustache" type="PLAIN_TEXT" />
+      <mapping ext="conf" type="Properties" />
+      <mapping ext="icls" type="XML" />
       <mapping pattern="*httpd.conf" type="htaccess" />
+      <mapping pattern="*httpd.include" type="htaccess" />
     </extensionMap>
   </component>
 </application>

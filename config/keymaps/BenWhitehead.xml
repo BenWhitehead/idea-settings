@@ -39,6 +39,12 @@
   <action id="EditorUnSelectWord">
     <keyboard-shortcut first-keystroke="shift control E" />
   </action>
+  <action id="FindNext">
+    <keyboard-shortcut first-keystroke="F3" />
+  </action>
+  <action id="FindPrevious">
+    <keyboard-shortcut first-keystroke="shift F3" />
+  </action>
   <action id="FindUsagesInFile" />
   <action id="Git.Push">
     <keyboard-shortcut first-keystroke="shift control K" />
