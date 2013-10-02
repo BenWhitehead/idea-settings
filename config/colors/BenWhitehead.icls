@@ -418,6 +418,11 @@
         <option name="FONT_TYPE" value="2" />
       </value>
     </option>
+    <option name="DEFAULT_STRING">
+      <value>
+        <option name="FOREGROUND" value="6a8759" />
+      </value>
+    </option>
     <option name="DEFAULT_VALID_STRING_ESCAPE">
       <value>
         <option name="FOREGROUND" value="bf327f" />
@@ -685,6 +690,12 @@
       <value>
         <option name="FOREGROUND" value="ffdd80" />
         <option name="FONT_TYPE" value="2" />
+      </value>
+    </option>
+    <option name="Implicit conversion">
+      <value>
+        <option name="EFFECT_COLOR" value="aaaaaa" />
+        <option name="EFFECT_TYPE" value="1" />
       </value>
     </option>
     <option name="Instance field">
@@ -1505,158 +1516,14 @@
         <option name="FONT_TYPE" value="2" />
       </value>
     </option>
-    <option name="Scala Abstract class">
-      <value>
-        <option name="FOREGROUND" value="ffc832" />
-        <option name="FONT_TYPE" value="2" />
-      </value>
-    </option>
-    <option name="Scala Annotation attribute name">
-      <value>
-        <option name="FOREGROUND" value="6599" />
-      </value>
-    </option>
-    <option name="Scala Annotation name">
-      <value>
-        <option name="FOREGROUND" value="ff0073" />
-        <option name="FONT_TYPE" value="2" />
-        <option name="EFFECT_TYPE" value="1" />
-      </value>
-    </option>
-    <option name="Scala Assign">
-      <value>
-        <option name="FOREGROUND" value="ffff" />
-      </value>
-    </option>
-    <option name="Scala Block comment">
-      <value>
-        <option name="FOREGROUND" value="6298c7" />
-        <option name="FONT_TYPE" value="2" />
-      </value>
-    </option>
-    <option name="Scala Braces">
-      <value>
-        <option name="FOREGROUND" value="6298c7" />
-      </value>
-    </option>
-    <option name="Scala Brackets">
-      <value>
-        <option name="FOREGROUND" value="634b00" />
-      </value>
-    </option>
-    <option name="Scala Class">
-      <value>
-        <option name="FOREGROUND" value="ffc832" />
-      </value>
-    </option>
-    <option name="Scala Class method call">
-      <value>
-        <option name="FOREGROUND" value="634b00" />
-      </value>
-    </option>
-    <option name="Scala Colon">
-      <value>
-        <option name="FOREGROUND" value="ffff" />
-      </value>
-    </option>
-    <option name="Scala Comma">
-      <value>
-        <option name="FOREGROUND" value="6298c7" />
-      </value>
-    </option>
-    <option name="Scala Dot">
-      <value>
-        <option name="FOREGROUND" value="6363" />
-      </value>
-    </option>
-    <option name="Scala Invalid escape in string">
-      <value>
-        <option name="FOREGROUND" value="ff0000" />
-        <option name="EFFECT_COLOR" value="ff0000" />
-        <option name="EFFECT_TYPE" value="2" />
-        <option name="ERROR_STRIPE_COLOR" value="ff0000" />
-      </value>
-    </option>
-    <option name="Scala Keyword">
-      <value>
-        <option name="FOREGROUND" value="6464" />
-        <option name="FONT_TYPE" value="1" />
-      </value>
-    </option>
-    <option name="Scala Local method call">
-      <value>
-        <option name="FOREGROUND" value="634b00" />
-      </value>
-    </option>
-    <option name="Scala Method declaration">
-      <value>
-        <option name="FOREGROUND" value="634b00" />
-      </value>
-    </option>
-    <option name="Scala Number">
-      <value>
-        <option name="FOREGROUND" value="66cc" />
-      </value>
-    </option>
-    <option name="Scala Object">
-      <value>
-        <option name="FOREGROUND" value="ffc832" />
-      </value>
-    </option>
-    <option name="Scala Object method call">
-      <value>
-        <option name="FOREGROUND" value="634b00" />
-        <option name="FONT_TYPE" value="2" />
-      </value>
-    </option>
-    <option name="Scala Parameter">
-      <value>
-        <option name="FOREGROUND" value="ab71bf" />
-      </value>
-    </option>
     <option name="Scala Parentheses">
       <value>
         <option name="FOREGROUND" value="634b00" />
       </value>
     </option>
-    <option name="Scala Predefined types">
+    <option name="Scala Type Alias">
       <value>
-        <option name="FOREGROUND" value="6464" />
-        <option name="FONT_TYPE" value="1" />
-      </value>
-    </option>
-    <option name="Scala Semicolon">
-      <value>
-        <option name="FOREGROUND" value="6363" />
-      </value>
-    </option>
-    <option name="Scala Template val">
-      <value>
-        <option name="FOREGROUND" value="6599" />
-        <option name="FONT_TYPE" value="3" />
-      </value>
-    </option>
-    <option name="Scala Trait">
-      <value>
-        <option name="FOREGROUND" value="ffdd80" />
-        <option name="FONT_TYPE" value="2" />
-      </value>
-    </option>
-    <option name="Scala Type parameter">
-      <value>
-        <option name="FOREGROUND" value="ff0073" />
-      </value>
-    </option>
-    <option name="Scala Valid escape in string">
-      <value>
-        <option name="FOREGROUND" value="bf327f" />
-        <option name="FONT_TYPE" value="1" />
-      </value>
-    </option>
-    <option name="ScalaDoc comment">
-      <value>
-        <option name="FOREGROUND" value="bfbf" />
-        <option name="FONT_TYPE" value="2" />
+        <option name="FOREGROUND" value="135c54" />
       </value>
     </option>
     <option name="Shebang (#!) comment">
