@@ -1516,6 +1516,11 @@
         <option name="FONT_TYPE" value="2" />
       </value>
     </option>
+    <option name="Scala Parameter">
+      <value>
+        <option name="FOREGROUND" value="ab71bf" />
+      </value>
+    </option>
     <option name="Scala Parentheses">
       <value>
         <option name="FOREGROUND" value="634b00" />
