@@ -6,6 +6,10 @@
     <option name="SURROUND_SELECTION_ON_QUOTE_TYPED" value="true" />
     <option name="HIGHLIGHT_IDENTIFIER_UNDER_CARET" value="false" />
     <option name="OPTIMIZE_IMPORTS_ON_THE_FLY" value="true" />
+    <option name="ADD_UNAMBIGIOUS_IMPORTS_ON_THE_FLY" value="true" />
+    <EXCLUDED_PACKAGE NAME="com.sun.istack" />
+    <EXCLUDED_PACKAGE NAME="com.sun.jersey.spi.inject" />
+    <EXCLUDED_PACKAGE NAME="javax.faces" />
     <EXCLUDED_PACKAGE NAME="junit.framework" />
   </component>
   <component name="DaemonCodeAnalyzerSettings" profile="Default">
