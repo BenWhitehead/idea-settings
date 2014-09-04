@@ -56,9 +56,15 @@
   <action id="GuiDesigner.ShrinkSelection">
     <keyboard-shortcut first-keystroke="shift control E" />
   </action>
+  <action id="NewScratchFile">
+    <keyboard-shortcut first-keystroke="shift control INSERT" />
+  </action>
   <action id="NextTab">
     <keyboard-shortcut first-keystroke="alt RIGHT" />
     <keyboard-shortcut first-keystroke="control PAGE_DOWN" />
+  </action>
+  <action id="PasteMultiple">
+    <keyboard-shortcut first-keystroke="shift control V" />
   </action>
   <action id="PreviousTab">
     <keyboard-shortcut first-keystroke="alt LEFT" />
