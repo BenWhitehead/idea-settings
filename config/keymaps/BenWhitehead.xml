@@ -1,4 +1,3 @@
-<?xml version="1.0" encoding="UTF-8"?>
 <keymap version="1" name="BenWhitehead" parent="$default">
   <action id="ActivateFavoritesToolWindow" />
   <action id="ActivateMavenProjectsToolWindow">
@@ -56,9 +55,21 @@
   <action id="GuiDesigner.ShrinkSelection">
     <keyboard-shortcut first-keystroke="shift control E" />
   </action>
+  <action id="NewScratchFile">
+    <keyboard-shortcut first-keystroke="shift control INSERT" />
+  </action>
+  <action id="NextSplitter">
+    <keyboard-shortcut first-keystroke="control TAB" />
+  </action>
   <action id="NextTab">
     <keyboard-shortcut first-keystroke="alt RIGHT" />
     <keyboard-shortcut first-keystroke="control PAGE_DOWN" />
+  </action>
+  <action id="PasteMultiple">
+    <keyboard-shortcut first-keystroke="shift control V" />
+  </action>
+  <action id="PrevSplitter">
+    <keyboard-shortcut first-keystroke="shift control TAB" />
   </action>
   <action id="PreviousTab">
     <keyboard-shortcut first-keystroke="alt LEFT" />
@@ -88,6 +99,7 @@
   <action id="SwitchUp">
     <keyboard-shortcut first-keystroke="shift alt UP" />
   </action>
+  <action id="Switcher" />
   <action id="TogglePresentationMode">
     <keyboard-shortcut first-keystroke="shift control F11" />
   </action>
@@ -100,4 +112,3 @@
   </action>
   <action id="UsageView.ShowRecentFindUsages" />
 </keymap>
-

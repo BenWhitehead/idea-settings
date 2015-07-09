@@ -11,6 +11,17 @@
         <option value="at org.springframework.test." />
         <option value="at org.springframework.web." />
         <option value="at org.junit.Assert." />
+        <option value="at org.jboss.netty." />
+        <option value="at com.twitter.util." />
+        <option value="at com.twitter.concurrent." />
+        <option value="at com.twitter.finagle." />
+        <option value="at org.scalatest." />
+        <option value="at scala." />
+        <option value="at java.net.URLClassLoader" />
+        <option value="at java.lang.ClassLoader" />
+        <option value="at sun.misc." />
+        <option value="at java.lang.Thread.run" />
+        <option value="at java.util.concurrent.ThreadPoolExecutor" />
       </list>
     </option>
   </component>
