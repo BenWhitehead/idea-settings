@@ -16,8 +16,6 @@
       <option name="CSS_DECLARATION_BLOCK" value="false" />
       <option name="CSS_RULESET_LIST" value="false" />
       <option name="CSS" value="false" />
-      <option name="JAVA_SCRIPT" value="false" />
-      <option name="CoffeeScript" value="false" />
       <option name="MAVEN" value="false" />
       <option name="HAML" value="false" />
       <option name="OTHER" value="false" />
@@ -40,8 +38,6 @@
       <option name="CSS_DECLARATION_BLOCK" value="false" />
       <option name="CSS_RULESET_LIST" value="false" />
       <option name="CSS" value="false" />
-      <option name="JAVA_SCRIPT" value="false" />
-      <option name="CoffeeScript" value="false" />
       <option name="MAVEN" value="false" />
       <option name="HAML" value="false" />
       <option name="OTHER" value="false" />
@@ -66,8 +62,6 @@
       <option name="CSS_DECLARATION_BLOCK" value="false" />
       <option name="CSS_RULESET_LIST" value="false" />
       <option name="CSS" value="false" />
-      <option name="JAVA_SCRIPT" value="false" />
-      <option name="CoffeeScript" value="false" />
       <option name="MAVEN" value="false" />
       <option name="HAML" value="false" />
       <option name="OTHER" value="false" />
@@ -92,8 +86,6 @@
       <option name="CSS_DECLARATION_BLOCK" value="false" />
       <option name="CSS_RULESET_LIST" value="false" />
       <option name="CSS" value="false" />
-      <option name="JAVA_SCRIPT" value="false" />
-      <option name="CoffeeScript" value="false" />
       <option name="MAVEN" value="false" />
       <option name="HAML" value="false" />
       <option name="OTHER" value="false" />
@@ -119,8 +111,6 @@
       <option name="CSS_DECLARATION_BLOCK" value="false" />
       <option name="CSS_RULESET_LIST" value="false" />
       <option name="CSS" value="false" />
-      <option name="JAVA_SCRIPT" value="false" />
-      <option name="CoffeeScript" value="false" />
       <option name="MAVEN" value="false" />
       <option name="HAML" value="false" />
       <option name="OTHER" value="false" />
@@ -144,8 +134,6 @@
       <option name="CSS_DECLARATION_BLOCK" value="false" />
       <option name="CSS_RULESET_LIST" value="false" />
       <option name="CSS" value="false" />
-      <option name="JAVA_SCRIPT" value="false" />
-      <option name="CoffeeScript" value="false" />
       <option name="MAVEN" value="false" />
       <option name="HAML" value="false" />
       <option name="OTHER" value="false" />
@@ -169,8 +157,6 @@
       <option name="CSS_DECLARATION_BLOCK" value="false" />
       <option name="CSS_RULESET_LIST" value="false" />
       <option name="CSS" value="false" />
-      <option name="JAVA_SCRIPT" value="false" />
-      <option name="CoffeeScript" value="false" />
       <option name="MAVEN" value="false" />
       <option name="HAML" value="false" />
       <option name="OTHER" value="false" />
@@ -194,8 +180,6 @@
       <option name="CSS_DECLARATION_BLOCK" value="false" />
       <option name="CSS_RULESET_LIST" value="false" />
       <option name="CSS" value="false" />
-      <option name="JAVA_SCRIPT" value="false" />
-      <option name="CoffeeScript" value="false" />
       <option name="MAVEN" value="false" />
       <option name="HAML" value="false" />
       <option name="OTHER" value="false" />
@@ -219,11 +203,20 @@
       <option name="CSS_DECLARATION_BLOCK" value="false" />
       <option name="CSS_RULESET_LIST" value="false" />
       <option name="CSS" value="false" />
-      <option name="JAVA_SCRIPT" value="false" />
-      <option name="CoffeeScript" value="false" />
       <option name="MAVEN" value="false" />
       <option name="HAML" value="false" />
       <option name="OTHER" value="false" />
+    </context>
+  </template>
+  <template name="revn" value="// REVIEW: $END$" description="Review note" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="JAVA_CODE" value="true" />
+      <option name="JAVA_STATEMENT" value="true" />
+      <option name="JAVA_EXPRESSION" value="true" />
+      <option name="JAVA_DECLARATION" value="true" />
+      <option name="JAVA_COMMENT" value="true" />
+      <option name="JAVA_STRING" value="true" />
+      <option name="COMPLETION" value="true" />
     </context>
   </template>
 </templateSet>

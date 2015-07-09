@@ -16,8 +16,6 @@
       <option name="CSS_DECLARATION_BLOCK" value="false" />
       <option name="CSS_RULESET_LIST" value="false" />
       <option name="CSS" value="false" />
-      <option name="JAVA_SCRIPT" value="false" />
-      <option name="CoffeeScript" value="false" />
       <option name="MAVEN" value="false" />
       <option name="HAML" value="false" />
       <option name="OTHER" value="false" />
@@ -40,8 +38,6 @@
       <option name="CSS_DECLARATION_BLOCK" value="false" />
       <option name="CSS_RULESET_LIST" value="false" />
       <option name="CSS" value="false" />
-      <option name="JAVA_SCRIPT" value="false" />
-      <option name="CoffeeScript" value="false" />
       <option name="MAVEN" value="false" />
       <option name="HAML" value="false" />
       <option name="OTHER" value="false" />
@@ -64,8 +60,6 @@
       <option name="CSS_DECLARATION_BLOCK" value="false" />
       <option name="CSS_RULESET_LIST" value="false" />
       <option name="CSS" value="false" />
-      <option name="JAVA_SCRIPT" value="false" />
-      <option name="CoffeeScript" value="false" />
       <option name="MAVEN" value="false" />
       <option name="HAML" value="false" />
       <option name="OTHER" value="false" />
@@ -88,8 +82,6 @@
       <option name="CSS_DECLARATION_BLOCK" value="false" />
       <option name="CSS_RULESET_LIST" value="false" />
       <option name="CSS" value="false" />
-      <option name="JAVA_SCRIPT" value="false" />
-      <option name="CoffeeScript" value="false" />
       <option name="MAVEN" value="false" />
       <option name="HAML" value="false" />
       <option name="OTHER" value="false" />
@@ -112,8 +104,6 @@
       <option name="CSS_DECLARATION_BLOCK" value="false" />
       <option name="CSS_RULESET_LIST" value="false" />
       <option name="CSS" value="false" />
-      <option name="JAVA_SCRIPT" value="false" />
-      <option name="CoffeeScript" value="false" />
       <option name="MAVEN" value="false" />
       <option name="HAML" value="false" />
       <option name="OTHER" value="false" />
@@ -138,8 +128,6 @@
       <option name="CSS_DECLARATION_BLOCK" value="false" />
       <option name="CSS_RULESET_LIST" value="false" />
       <option name="CSS" value="false" />
-      <option name="JAVA_SCRIPT" value="false" />
-      <option name="CoffeeScript" value="false" />
       <option name="MAVEN" value="false" />
       <option name="HAML" value="false" />
       <option name="OTHER" value="false" />
@@ -162,8 +150,6 @@
       <option name="CSS_DECLARATION_BLOCK" value="false" />
       <option name="CSS_RULESET_LIST" value="false" />
       <option name="CSS" value="false" />
-      <option name="JAVA_SCRIPT" value="false" />
-      <option name="CoffeeScript" value="false" />
       <option name="MAVEN" value="false" />
       <option name="HAML" value="false" />
       <option name="OTHER" value="false" />

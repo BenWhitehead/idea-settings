@@ -1,4 +1,3 @@
-<?xml version="1.0" encoding="UTF-8"?>
 <application>
   <component name="ConsoleFoldingSettings">
     <option name="addedPositive">
@@ -22,8 +21,16 @@
         <option value="at sun.misc." />
         <option value="at java.lang.Thread.run" />
         <option value="at java.util.concurrent.ThreadPoolExecutor" />
+        <option value="at io.finch." />
+        <option value="at io.github.benwhitehead.finch." />
+        <option value="at com.fasterxml.jackson." />
+        <option value="at com.twitter.bijection." />
+        <option value="at backtype.storm." />
+        <option value="at org.apache.zookeeper." />
+        <option value="at sun.nio." />
+        <option value="at java.util.zip." />
+        <option value="at com.google.protobuf." />
       </list>
     </option>
   </component>
 </application>
-
