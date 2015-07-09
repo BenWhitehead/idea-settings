@@ -1,29 +1,4 @@
 <templateSet group="BenWhitehead Scala">
-  <template name="pss" value="private static String" description="private static String" toReformat="false" toShortenFQNames="true">
-    <context>
-      <option name="HTML_TEXT" value="false" />
-      <option name="HTML" value="false" />
-      <option name="XSL_TEXT" value="false" />
-      <option name="XML" value="false" />
-      <option name="JAVA_CODE" value="true" />
-      <option name="JAVA_STATEMENT" value="true" />
-      <option name="JAVA_EXPRESSION" value="true" />
-      <option name="JAVA_DECLARATION" value="true" />
-      <option name="JAVA_COMMENT" value="true" />
-      <option name="JAVA_STRING" value="true" />
-      <option name="COMPLETION" value="true" />
-      <option name="CSS_PROPERTY_VALUE" value="false" />
-      <option name="CSS_DECLARATION_BLOCK" value="false" />
-      <option name="CSS_RULESET_LIST" value="false" />
-      <option name="CSS" value="false" />
-      <option name="JAVA_SCRIPT" value="false" />
-      <option name="TypeScript" value="false" />
-      <option name="CoffeeScript" value="false" />
-      <option name="MAVEN" value="false" />
-      <option name="HAML" value="false" />
-      <option name="OTHER" value="false" />
-    </context>
-  </template>
   <template name="soutv" value="println(s&quot;$EXPR_COPY$ = $${$EXPR$}&quot;)" description="Print a value to std out" toReformat="false" toShortenFQNames="true">
     <variable name="EXPR" expression="Suggest Scala variable macro" defaultValue="false" alwaysStopAt="true" />
     <variable name="EXPR_COPY" expression="EXPR" defaultValue="" alwaysStopAt="false" />
@@ -43,9 +18,6 @@
       <option name="CSS_DECLARATION_BLOCK" value="false" />
       <option name="CSS_RULESET_LIST" value="false" />
       <option name="CSS" value="false" />
-      <option name="JAVA_SCRIPT" value="false" />
-      <option name="TypeScript" value="false" />
-      <option name="CoffeeScript" value="false" />
       <option name="MAVEN" value="false" />
       <option name="HAML" value="false" />
       <option name="OTHER" value="false" />
@@ -70,9 +42,6 @@
       <option name="CSS_DECLARATION_BLOCK" value="false" />
       <option name="CSS_RULESET_LIST" value="false" />
       <option name="CSS" value="false" />
-      <option name="JAVA_SCRIPT" value="false" />
-      <option name="TypeScript" value="false" />
-      <option name="CoffeeScript" value="false" />
       <option name="MAVEN" value="false" />
       <option name="HAML" value="false" />
       <option name="OTHER" value="false" />
@@ -88,6 +57,12 @@
     <variable name="EXPR" expression="" defaultValue="" alwaysStopAt="true" />
     <variable name="VAR" expression="" defaultValue="&quot;x&quot;" alwaysStopAt="true" />
     <variable name="EX" expression="" defaultValue="&quot;t: Throwable&quot;" alwaysStopAt="true" />
+    <context>
+      <option name="SCALA" value="true" />
+      <option name="SCALA_XML" value="true" />
+    </context>
+  </template>
+  <template name="cev" value="collector.emit(new Values($END$))" description="Emit a value to a Storm collector" toReformat="false" toShortenFQNames="true">
     <context>
       <option name="SCALA" value="true" />
       <option name="SCALA_XML" value="true" />
