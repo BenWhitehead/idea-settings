@@ -1,15 +1,17 @@
-<?xml version="1.0" encoding="UTF-8"?>
 <application>
-  <component name="FileTypeManager" version="11">
-    <ignoreFiles list="CVS;SCCS;RCS;rcs;.DS_Store;.svn;.pyc;.pyo;*.pyc;*.pyo;.git;*.hprof;_svn;.hg;*.lib;*~;__pycache__;.bundle;*.rbc;vssver.scc;vssver2.scc;*.orig;" />
+  <component name="FileTypeManager" version="14">
+    <ignoreFiles list="*.hprof;*.orig;*.pyc;*.pyo;*.rbc;*~;.DS_Store;.bundle;.git;.hg;.svn;.tox;CVS;RCS;SCCS;__pycache__;_svn;rcs;vssver.scc;vssver2.scc;" />
     <extensionMap>
       <mapping ext="template" type="HTML" />
+      <mapping ext="markdown" type="Markdown" />
+      <mapping pattern="Dockerfile" type="PLAIN_TEXT" />
+      <mapping pattern="Makefile" type="PLAIN_TEXT" />
       <mapping pattern="fstab" type="PLAIN_TEXT" />
+      <mapping ext="toml" type="PLAIN_TEXT" />
       <mapping ext="colors" type="PLAIN_TEXT" />
-      <mapping ext="mustache" type="PLAIN_TEXT" />
+      <mapping ext="base64" type="PLAIN_TEXT" />
+      <mapping ext="j2" type="PLAIN_TEXT" />
       <mapping ext="icls" type="XML" />
     </extensionMap>
-    <setting name="fileTypeChangedCounter" value="3" />
   </component>
 </application>
-

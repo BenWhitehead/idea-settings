@@ -15,11 +15,15 @@
     <EXCLUDED_PACKAGE NAME="com.sun" />
     <EXCLUDED_PACKAGE NAME="com.sun.istack" />
     <EXCLUDED_PACKAGE NAME="com.sun.jersey.spi.inject" />
+    <EXCLUDED_PACKAGE NAME="com.twitter.finagle.http" />
     <EXCLUDED_PACKAGE NAME="com.yammer" />
+    <EXCLUDED_PACKAGE NAME="java.awt" />
     <EXCLUDED_PACKAGE NAME="javafx" />
     <EXCLUDED_PACKAGE NAME="javax.xml.ws" />
+    <EXCLUDED_PACKAGE NAME="jdk.nashorn" />
     <EXCLUDED_PACKAGE NAME="jersey.repackaged" />
     <EXCLUDED_PACKAGE NAME="junit.framework" />
+    <EXCLUDED_PACKAGE NAME="org.assertj.core.util.Lists" />
     <EXCLUDED_PACKAGE NAME="org.glassfish" />
     <EXCLUDED_PACKAGE NAME="org.jboss.netty.handler.codec.http.HttpHeaders.Values" />
     <EXCLUDED_PACKAGE NAME="org.jboss.netty.handler.codec.rtsp.RtspHeaders.Values" />
@@ -31,6 +35,7 @@
     <EXCLUDED_PACKAGE NAME="shapeless" />
     <EXCLUDED_PACKAGE NAME="sun.misc" />
     <EXCLUDED_PACKAGE NAME="sun.net" />
+    <EXCLUDED_PACKAGE NAME="sun.nio" />
     <EXCLUDED_PACKAGE NAME="sun.org" />
   </component>
   <component name="JavaCodeFoldingSettings">

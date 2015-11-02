@@ -30,6 +30,8 @@
         <option value="at sun.nio." />
         <option value="at java.util.zip." />
         <option value="at com.google.protobuf." />
+        <option value="at io.netty." />
+        <option value="at rx.internal." />
       </list>
     </option>
   </component>
