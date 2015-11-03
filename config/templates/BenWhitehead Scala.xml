@@ -19,7 +19,6 @@
       <option name="CSS_RULESET_LIST" value="false" />
       <option name="CSS" value="false" />
       <option name="MAVEN" value="false" />
-      <option name="HAML" value="false" />
       <option name="OTHER" value="false" />
     </context>
   </template>
@@ -43,29 +42,19 @@
       <option name="CSS_RULESET_LIST" value="false" />
       <option name="CSS" value="false" />
       <option name="MAVEN" value="false" />
-      <option name="HAML" value="false" />
       <option name="OTHER" value="false" />
     </context>
   </template>
   <template name="2scala" value="import scala.collection.JavaConverters._" toReformat="false" toShortenFQNames="true">
-    <context>
-      <option name="SCALA" value="true" />
-      <option name="SCALA_XML" value="true" />
-    </context>
+    <context />
   </template>
   <template name="trym" value="scala.util.Try($EXPR$) match {&#10;  case scala.util.Success($VAR$) =&gt; $END$&#10;  case scala.util.Failure($EX$) =&gt;&#10;}" description="Create a scala.util.Try and associated matcher" toReformat="false" toShortenFQNames="true">
     <variable name="EXPR" expression="" defaultValue="" alwaysStopAt="true" />
     <variable name="VAR" expression="" defaultValue="&quot;x&quot;" alwaysStopAt="true" />
     <variable name="EX" expression="" defaultValue="&quot;t: Throwable&quot;" alwaysStopAt="true" />
-    <context>
-      <option name="SCALA" value="true" />
-      <option name="SCALA_XML" value="true" />
-    </context>
+    <context />
   </template>
   <template name="cev" value="collector.emit(new Values($END$))" description="Emit a value to a Storm collector" toReformat="false" toShortenFQNames="true">
-    <context>
-      <option name="SCALA" value="true" />
-      <option name="SCALA_XML" value="true" />
-    </context>
+    <context />
   </template>
 </templateSet>

@@ -30,14 +30,6 @@
       <option name="CSS_RULESET_LIST" value="false" />
       <option name="CSS" value="false" />
       <option name="MAVEN" value="false" />
-      <option name="SCALA" value="false" />
-      <option name="SCALA_XML" value="false" />
-      <option name="SCALA_COMMENT" value="false" />
-      <option name="SCALA_STRING" value="false" />
-      <option name="SCALA_CODE" value="false" />
-      <option name="SBT" value="false" />
-      <option name="SSP" value="false" />
-      <option name="HAML" value="false" />
       <option name="OTHER" value="false" />
     </context>
   </template>
