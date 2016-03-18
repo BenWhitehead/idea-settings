@@ -19,6 +19,11 @@
       <option name="CSS_RULESET_LIST" value="false" />
       <option name="CSS" value="false" />
       <option name="MAVEN" value="false" />
+      <option name="SCALA" value="true" />
+      <option name="SCALA_XML" value="true" />
+      <option name="SCALA_COMMENT" value="true" />
+      <option name="SCALA_STRING" value="true" />
+      <option name="SCALA_CODE" value="true" />
       <option name="OTHER" value="false" />
     </context>
   </template>
@@ -41,6 +46,11 @@
       <option name="CSS_RULESET_LIST" value="false" />
       <option name="CSS" value="false" />
       <option name="MAVEN" value="false" />
+      <option name="SCALA" value="true" />
+      <option name="SCALA_XML" value="true" />
+      <option name="SCALA_COMMENT" value="true" />
+      <option name="SCALA_STRING" value="true" />
+      <option name="SCALA_CODE" value="true" />
       <option name="OTHER" value="false" />
     </context>
   </template>
@@ -65,6 +75,11 @@
       <option name="CSS_RULESET_LIST" value="false" />
       <option name="CSS" value="false" />
       <option name="MAVEN" value="false" />
+      <option name="SCALA" value="true" />
+      <option name="SCALA_XML" value="true" />
+      <option name="SCALA_COMMENT" value="true" />
+      <option name="SCALA_STRING" value="true" />
+      <option name="SCALA_CODE" value="true" />
       <option name="OTHER" value="false" />
     </context>
   </template>
@@ -87,6 +102,11 @@
       <option name="CSS_RULESET_LIST" value="false" />
       <option name="CSS" value="false" />
       <option name="MAVEN" value="false" />
+      <option name="SCALA" value="true" />
+      <option name="SCALA_XML" value="true" />
+      <option name="SCALA_COMMENT" value="true" />
+      <option name="SCALA_STRING" value="true" />
+      <option name="SCALA_CODE" value="true" />
       <option name="OTHER" value="false" />
     </context>
   </template>
@@ -111,6 +131,11 @@
       <option name="CSS_RULESET_LIST" value="false" />
       <option name="CSS" value="false" />
       <option name="MAVEN" value="false" />
+      <option name="SCALA" value="true" />
+      <option name="SCALA_XML" value="true" />
+      <option name="SCALA_COMMENT" value="true" />
+      <option name="SCALA_STRING" value="true" />
+      <option name="SCALA_CODE" value="true" />
       <option name="OTHER" value="false" />
     </context>
   </template>
@@ -133,6 +158,11 @@
       <option name="CSS_RULESET_LIST" value="false" />
       <option name="CSS" value="false" />
       <option name="MAVEN" value="false" />
+      <option name="SCALA" value="true" />
+      <option name="SCALA_XML" value="true" />
+      <option name="SCALA_COMMENT" value="true" />
+      <option name="SCALA_STRING" value="true" />
+      <option name="SCALA_CODE" value="true" />
       <option name="OTHER" value="false" />
     </context>
   </template>
@@ -157,6 +187,11 @@
       <option name="CSS_RULESET_LIST" value="false" />
       <option name="CSS" value="false" />
       <option name="MAVEN" value="false" />
+      <option name="SCALA" value="true" />
+      <option name="SCALA_XML" value="true" />
+      <option name="SCALA_COMMENT" value="true" />
+      <option name="SCALA_STRING" value="true" />
+      <option name="SCALA_CODE" value="true" />
       <option name="OTHER" value="false" />
     </context>
   </template>
@@ -179,6 +214,11 @@
       <option name="CSS_RULESET_LIST" value="false" />
       <option name="CSS" value="false" />
       <option name="MAVEN" value="false" />
+      <option name="SCALA" value="true" />
+      <option name="SCALA_XML" value="true" />
+      <option name="SCALA_COMMENT" value="true" />
+      <option name="SCALA_STRING" value="true" />
+      <option name="SCALA_CODE" value="true" />
       <option name="OTHER" value="false" />
     </context>
   </template>
@@ -203,6 +243,11 @@
       <option name="CSS_RULESET_LIST" value="false" />
       <option name="CSS" value="false" />
       <option name="MAVEN" value="false" />
+      <option name="SCALA" value="true" />
+      <option name="SCALA_XML" value="true" />
+      <option name="SCALA_COMMENT" value="true" />
+      <option name="SCALA_STRING" value="true" />
+      <option name="SCALA_CODE" value="true" />
       <option name="OTHER" value="false" />
     </context>
   </template>
@@ -225,6 +270,11 @@
       <option name="CSS_RULESET_LIST" value="false" />
       <option name="CSS" value="false" />
       <option name="MAVEN" value="false" />
+      <option name="SCALA" value="true" />
+      <option name="SCALA_XML" value="true" />
+      <option name="SCALA_COMMENT" value="true" />
+      <option name="SCALA_STRING" value="true" />
+      <option name="SCALA_CODE" value="true" />
       <option name="OTHER" value="false" />
     </context>
   </template>
@@ -249,6 +299,11 @@
       <option name="CSS_RULESET_LIST" value="false" />
       <option name="CSS" value="false" />
       <option name="MAVEN" value="false" />
+      <option name="SCALA" value="true" />
+      <option name="SCALA_XML" value="true" />
+      <option name="SCALA_COMMENT" value="true" />
+      <option name="SCALA_STRING" value="true" />
+      <option name="SCALA_CODE" value="true" />
       <option name="OTHER" value="false" />
     </context>
   </template>
@@ -275,6 +330,11 @@
       <option name="CSS_RULESET_LIST" value="false" />
       <option name="CSS" value="false" />
       <option name="MAVEN" value="false" />
+      <option name="SCALA" value="true" />
+      <option name="SCALA_XML" value="true" />
+      <option name="SCALA_COMMENT" value="true" />
+      <option name="SCALA_STRING" value="true" />
+      <option name="SCALA_CODE" value="true" />
       <option name="OTHER" value="false" />
     </context>
   </template>

@@ -1,6 +1,6 @@
-<scheme name="BenWhitehead" version="142" parent_scheme="Default">
+<scheme name="BenWhitehead 18pt" version="142" parent_scheme="Default">
   <option name="LINE_SPACING" value="1.0" />
-  <option name="EDITOR_FONT_SIZE" value="12" />
+  <option name="EDITOR_FONT_SIZE" value="18" />
   <option name="EDITOR_FONT_NAME" value="Courier New" />
   <colors>
     <option name="ADDED_LINES_COLOR" value="21d97e" />

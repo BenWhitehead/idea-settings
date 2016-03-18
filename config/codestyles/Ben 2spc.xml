@@ -14,6 +14,10 @@
   <option name="LINE_SEPARATOR" value="&#10;" />
   <option name="GENERATE_FINAL_LOCALS" value="true" />
   <option name="GENERATE_FINAL_PARAMETERS" value="true" />
+  <ScalaCodeStyleSettings>
+    <option name="LOCAL_METHOD_TYPE_ANNOTATION" value="1" />
+    <option name="PRIVATE_METHOD_TYPE_ANNOTATION" value="1" />
+  </ScalaCodeStyleSettings>
   <XML>
     <option name="XML_LEGACY_SETTINGS_IMPORTED" value="true" />
   </XML>

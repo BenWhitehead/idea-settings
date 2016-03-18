@@ -32,6 +32,16 @@
         <option value="at com.google.protobuf." />
         <option value="at io.netty." />
         <option value="at rx.internal." />
+        <option value="at rx.Observable" />
+        <option value="at java.util.concurrent." />
+        <option value="at io.reactivex.netty." />
+        <option value="at ch.qos.logback." />
+        <option value="at rx.observables." />
+        <option value="at com.twitter." />
+        <option value="at java.net.InetAddress." />
+        <option value="at rx." />
+        <option value="at io.circe." />
+        <option value="at cats.data." />
       </list>
     </option>
   </component>
