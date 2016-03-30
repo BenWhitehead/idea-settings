@@ -42,6 +42,7 @@
         <option value="at rx." />
         <option value="at io.circe." />
         <option value="at cats.data." />
+        <option value="at sun.net." />
       </list>
     </option>
   </component>

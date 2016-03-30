@@ -17,6 +17,7 @@
     <EXCLUDED_PACKAGE NAME="com.sun.jersey.spi.inject" />
     <EXCLUDED_PACKAGE NAME="com.twitter.finagle.http" />
     <EXCLUDED_PACKAGE NAME="com.yammer" />
+    <EXCLUDED_PACKAGE NAME="io.netty.util.internal" />
     <EXCLUDED_PACKAGE NAME="java.awt" />
     <EXCLUDED_PACKAGE NAME="javafx" />
     <EXCLUDED_PACKAGE NAME="javax.xml.ws" />
