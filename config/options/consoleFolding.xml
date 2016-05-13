@@ -43,6 +43,7 @@
         <option value="at io.circe." />
         <option value="at cats.data." />
         <option value="at sun.net." />
+        <option value="at org.junit." />
       </list>
     </option>
   </component>
