@@ -1,4 +1,4 @@
-<templateSet group="user">
+<templateSet group="WebSequenceDiagrams">
   <template name="seq" value="$CALLER$-&gt;+$CALLEE$: $METHOD$&#10;    $END$&#10;$CALLEE$-&gt;-$CALLER$:" description="Create a sequence block for web sequence diagram" toReformat="false" toShortenFQNames="true">
     <variable name="CALLER" expression="" defaultValue="" alwaysStopAt="true" />
     <variable name="CALLEE" expression="" defaultValue="" alwaysStopAt="true" />
