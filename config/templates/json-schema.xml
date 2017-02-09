@@ -1,0 +1,49 @@
+<templateSet group="json-schema">
+  <template name="$obj" value="&quot;$NAME$&quot;: {&#10;  &quot;type&quot;: &quot;object&quot;,&#10;  &quot;properties&quot;: {&#10;     $END$&#10;  },&#10;  &quot;required&quot;: [&#10;  ],&#10;  &quot;additionalProperties&quot;: $ADDITIONAL_PROPERTIES$&#10;}" toReformat="true" toShortenFQNames="true">
+    <variable name="NAME" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="ADDITIONAL_PROPERTIES" expression="completeSmart()" defaultValue="false" alwaysStopAt="true" />
+    <context>
+      <option name="XML" value="false" />
+      <option name="GROOVY" value="false" />
+      <option name="JAVA_SCRIPT" value="false" />
+      <option name="OTHER" value="true" />
+      <option name="TypeScript" value="false" />
+      <option name="MAVEN" value="false" />
+      <option name="HTML" value="false" />
+      <option name="KOTLIN" value="false" />
+      <option name="JAVA_CODE" value="false" />
+      <option name="CSS" value="false" />
+    </context>
+  </template>
+  <template name="$ref" value="&quot;$NAME$&quot;: {&#10;  &quot;$ref&quot;: &quot;#/definitions/$NAME_COPY$&quot;&#10;}$END$&#10;" toReformat="true" toShortenFQNames="true">
+    <variable name="NAME" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="NAME_COPY" expression="NAME" defaultValue="" alwaysStopAt="false" />
+    <context>
+      <option name="XML" value="false" />
+      <option name="GROOVY" value="false" />
+      <option name="JAVA_SCRIPT" value="false" />
+      <option name="OTHER" value="true" />
+      <option name="TypeScript" value="false" />
+      <option name="MAVEN" value="false" />
+      <option name="HTML" value="false" />
+      <option name="KOTLIN" value="false" />
+      <option name="JAVA_CODE" value="false" />
+      <option name="CSS" value="false" />
+    </context>
+  </template>
+  <template name="$str" value="&quot;$NAME$&quot;: {&#10;  &quot;type&quot;: &quot;string&quot;&#10;}$END$" toReformat="true" toShortenFQNames="true">
+    <variable name="NAME" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="XML" value="false" />
+      <option name="GROOVY" value="false" />
+      <option name="JAVA_SCRIPT" value="false" />
+      <option name="OTHER" value="true" />
+      <option name="TypeScript" value="false" />
+      <option name="MAVEN" value="false" />
+      <option name="HTML" value="false" />
+      <option name="KOTLIN" value="false" />
+      <option name="JAVA_CODE" value="false" />
+      <option name="CSS" value="false" />
+    </context>
+  </template>
+</templateSet>
