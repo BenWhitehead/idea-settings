@@ -1,0 +1,14 @@
+<templateSet group="JUnit5">
+  <template name="ptest" value="@org.junit.jupiter.api.DisplayName(&quot;$DISPLAY_NAME$&quot;)&#10;@org.junit.jupiter.params.ParameterizedTest(name = &quot;[{index}] {0}&quot;)&#10;@org.junit.jupiter.params.provider.MethodSource(&quot;$TEST_ARGS_METHOD_NAME$&quot;)&#10;void $DISPLAY_NAME_COPY$(@org.jetbrains.annotations.NotNull final $arg_type$ $arg$) {&#10;    $END$&#10;}&#10;&#10;private static java.util.stream.Stream&lt;org.junit.jupiter.params.provider.Arguments&gt; $TEST_ARGS_METHOD_NAME_COPY$() {&#10;    return java.util.stream.Stream.of(&#10;            org.junit.jupiter.params.provider.Arguments.of($arg1$)&#10;    );&#10;}&#10;" description="Junit5 Parameterized Test" toReformat="false" toShortenFQNames="true" useStaticImport="true">
+    <variable name="DISPLAY_NAME" expression="" defaultValue="test" alwaysStopAt="true" />
+    <variable name="TEST_ARGS_METHOD_NAME" expression="concat(DISPLAY_NAME, &quot;Args&quot;)" defaultValue="testArgs" alwaysStopAt="true" />
+    <variable name="arg_type" expression="complete()" defaultValue="" alwaysStopAt="true" />
+    <variable name="arg" expression="" defaultValue="toTest" alwaysStopAt="true" />
+    <variable name="arg1" expression="variableOfType(arg_type)" defaultValue="&quot;toTest&quot;" alwaysStopAt="true" />
+    <variable name="DISPLAY_NAME_COPY" expression="DISPLAY_NAME" defaultValue="" alwaysStopAt="false" />
+    <variable name="TEST_ARGS_METHOD_NAME_COPY" expression="TEST_ARGS_METHOD_NAME" defaultValue="" alwaysStopAt="false" />
+    <context>
+      <option name="JAVA_DECLARATION" value="true" />
+    </context>
+  </template>
+</templateSet>
