@@ -1,17 +1,19 @@
 <application>
-  <component name="FileTypeManager" version="16">
-    <ignoreFiles list="*.hprof;*.orig;*.pyc;*.pyo;*.rbc;*~;.DS_Store;.git;.hg;.svn;CVS;RCS;SCCS;__pycache__;_svn;rcs;vssver.scc;vssver2.scc;" />
+  <component name="FileTypeManager" version="17">
+    <ignoreFiles list="*.hprof;*.orig;*.pyc;*.pyo;*.rbc;*~;.DS_Store;.git;.hg;.pipertmp-*;.svn;CVS;SCCS;__pycache__;_svn;vssver.scc;vssver2.scc;" />
     <extensionMap>
+      <mapping pattern=".pyenvrc" type="Bash" />
       <mapping ext="template" type="HTML" />
-      <mapping ext="markdown" type="Markdown" />
       <mapping pattern="Dockerfile" type="PLAIN_TEXT" />
-      <mapping pattern="Makefile" type="PLAIN_TEXT" />
-      <mapping pattern="fstab" type="PLAIN_TEXT" />
       <mapping pattern=".credentials" type="PLAIN_TEXT" />
-      <mapping ext="colors" type="PLAIN_TEXT" />
-      <mapping ext="toml" type="PLAIN_TEXT" />
+      <mapping pattern="fstab" type="PLAIN_TEXT" />
+      <mapping pattern="Makefile" type="PLAIN_TEXT" />
       <mapping ext="j2" type="PLAIN_TEXT" />
+      <mapping ext="colors" type="PLAIN_TEXT" />
       <mapping ext="base64" type="PLAIN_TEXT" />
+      <mapping ext="toml" type="PLAIN_TEXT" />
+      <mapping ext="pi" type="Python" />
+      <mapping ext="sdl" type="SQL" />
       <mapping ext="icls" type="XML" />
     </extensionMap>
   </component>

@@ -1,25 +1,20 @@
 <application>
+  <component name="DefaultFont">
+    <option name="FONT_FAMILY" value="Courier New" />
+  </component>
   <component name="EditorSettings">
     <option name="USE_SOFT_WRAPS" value="" />
     <option name="IS_VIRTUAL_SPACE" value="true" />
     <option name="IS_ENSURE_NEWLINE_AT_EOF" value="true" />
-    <option name="ARE_LINE_NUMBERS_SHOWN" value="true" />
     <option name="IS_INDENT_GUIDES_SHOWN" value="false" />
     <option name="IS_ANIMATED_SCROLLING" value="false" />
     <option name="IS_CAMEL_WORDS" value="true" />
     <option name="PRESELECT_RENAME" value="false" />
+    <option name="SHOW_PARAMETER_NAME_HINTS" value="false" />
   </component>
   <component name="TodoConfiguration">
-    <pattern icon="default" useCustomColors="false" case-sensitive="false" pattern="\btodo\b.*">
-      <option name="FOREGROUND" value="e100e1" />
-      <option name="FONT_TYPE" value="3" />
-      <option name="ERROR_STRIPE_COLOR" value="e100ff" />
-    </pattern>
-    <pattern icon="default" useCustomColors="false" case-sensitive="false" pattern="\bfixme\b.*">
-      <option name="FOREGROUND" value="e100e1" />
-      <option name="FONT_TYPE" value="3" />
-      <option name="ERROR_STRIPE_COLOR" value="e100ff" />
-    </pattern>
+    <pattern pattern="\btodo\b.*" />
+    <pattern pattern="\bfixme\b.*" />
     <pattern icon="question" useCustomColors="true" case-sensitive="true" pattern="REVIEW">
       <option name="FOREGROUND" value="ffff" />
       <option name="FONT_TYPE" value="3" />

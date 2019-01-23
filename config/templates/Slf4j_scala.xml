@@ -3,55 +3,13 @@
     <variable name="LOGGER_NAME" expression="suggestVariableName()" defaultValue="&quot;logger&quot;" alwaysStopAt="true" />
     <variable name="LOGGER_CATEGORY" expression="className()" defaultValue="" alwaysStopAt="true" />
     <context>
-      <option name="HTML_TEXT" value="false" />
-      <option name="HTML" value="false" />
-      <option name="XSL_TEXT" value="false" />
-      <option name="XML" value="false" />
-      <option name="JAVA_CODE" value="false" />
-      <option name="JAVA_STATEMENT" value="false" />
-      <option name="JAVA_EXPRESSION" value="false" />
-      <option name="JAVA_DECLARATION" value="false" />
-      <option name="JAVA_COMMENT" value="false" />
-      <option name="JAVA_STRING" value="false" />
-      <option name="COMPLETION" value="false" />
-      <option name="CSS_PROPERTY_VALUE" value="false" />
-      <option name="CSS_DECLARATION_BLOCK" value="false" />
-      <option name="CSS_RULESET_LIST" value="false" />
-      <option name="CSS" value="false" />
-      <option name="MAVEN" value="false" />
       <option name="SCALA" value="true" />
-      <option name="SCALA_XML" value="true" />
-      <option name="SCALA_COMMENT" value="true" />
-      <option name="SCALA_STRING" value="true" />
-      <option name="SCALA_CODE" value="true" />
-      <option name="OTHER" value="false" />
     </context>
   </template>
   <template name="logi" value="$LOGGER$.info(&quot;$END$&quot;)" description="Slf4j log at info level" toReformat="false" toShortenFQNames="true">
     <variable name="LOGGER" expression="variableOfType(&quot;org.slf4j.Logger&quot;)" defaultValue="&quot;logger&quot;" alwaysStopAt="false" />
     <context>
-      <option name="HTML_TEXT" value="false" />
-      <option name="HTML" value="false" />
-      <option name="XSL_TEXT" value="false" />
-      <option name="XML" value="false" />
-      <option name="JAVA_CODE" value="false" />
-      <option name="JAVA_STATEMENT" value="false" />
-      <option name="JAVA_EXPRESSION" value="false" />
-      <option name="JAVA_DECLARATION" value="false" />
-      <option name="JAVA_COMMENT" value="false" />
-      <option name="JAVA_STRING" value="false" />
-      <option name="COMPLETION" value="false" />
-      <option name="CSS_PROPERTY_VALUE" value="false" />
-      <option name="CSS_DECLARATION_BLOCK" value="false" />
-      <option name="CSS_RULESET_LIST" value="false" />
-      <option name="CSS" value="false" />
-      <option name="MAVEN" value="false" />
       <option name="SCALA" value="true" />
-      <option name="SCALA_XML" value="true" />
-      <option name="SCALA_COMMENT" value="true" />
-      <option name="SCALA_STRING" value="true" />
-      <option name="SCALA_CODE" value="true" />
-      <option name="OTHER" value="false" />
     </context>
   </template>
   <template name="logiv" value="$LOGGER$.info(&quot;$EXPR_COPY$ = {}&quot;, $EXPR$)" description="Slf4j log value at info level" toReformat="false" toShortenFQNames="true">
@@ -59,55 +17,13 @@
     <variable name="EXPR" expression="variableOfType(&quot;&quot;)" defaultValue="&quot;expr&quot;" alwaysStopAt="true" />
     <variable name="EXPR_COPY" expression="EXPR" defaultValue="" alwaysStopAt="false" />
     <context>
-      <option name="HTML_TEXT" value="false" />
-      <option name="HTML" value="false" />
-      <option name="XSL_TEXT" value="false" />
-      <option name="XML" value="false" />
-      <option name="JAVA_CODE" value="false" />
-      <option name="JAVA_STATEMENT" value="false" />
-      <option name="JAVA_EXPRESSION" value="false" />
-      <option name="JAVA_DECLARATION" value="false" />
-      <option name="JAVA_COMMENT" value="false" />
-      <option name="JAVA_STRING" value="false" />
-      <option name="COMPLETION" value="false" />
-      <option name="CSS_PROPERTY_VALUE" value="false" />
-      <option name="CSS_DECLARATION_BLOCK" value="false" />
-      <option name="CSS_RULESET_LIST" value="false" />
-      <option name="CSS" value="false" />
-      <option name="MAVEN" value="false" />
       <option name="SCALA" value="true" />
-      <option name="SCALA_XML" value="true" />
-      <option name="SCALA_COMMENT" value="true" />
-      <option name="SCALA_STRING" value="true" />
-      <option name="SCALA_CODE" value="true" />
-      <option name="OTHER" value="false" />
     </context>
   </template>
   <template name="logd" value="$LOGGER$.debug(&quot;$END$&quot;)" description="Slf4j log at debug level" toReformat="false" toShortenFQNames="true">
     <variable name="LOGGER" expression="variableOfType(&quot;org.slf4j.Logger&quot;)" defaultValue="&quot;logger&quot;" alwaysStopAt="false" />
     <context>
-      <option name="HTML_TEXT" value="false" />
-      <option name="HTML" value="false" />
-      <option name="XSL_TEXT" value="false" />
-      <option name="XML" value="false" />
-      <option name="JAVA_CODE" value="false" />
-      <option name="JAVA_STATEMENT" value="false" />
-      <option name="JAVA_EXPRESSION" value="false" />
-      <option name="JAVA_DECLARATION" value="false" />
-      <option name="JAVA_COMMENT" value="false" />
-      <option name="JAVA_STRING" value="false" />
-      <option name="COMPLETION" value="false" />
-      <option name="CSS_PROPERTY_VALUE" value="false" />
-      <option name="CSS_DECLARATION_BLOCK" value="false" />
-      <option name="CSS_RULESET_LIST" value="false" />
-      <option name="CSS" value="false" />
-      <option name="MAVEN" value="false" />
       <option name="SCALA" value="true" />
-      <option name="SCALA_XML" value="true" />
-      <option name="SCALA_COMMENT" value="true" />
-      <option name="SCALA_STRING" value="true" />
-      <option name="SCALA_CODE" value="true" />
-      <option name="OTHER" value="false" />
     </context>
   </template>
   <template name="logdv" value="$LOGGER$.debug(&quot;$EXPR_COPY$ = {}&quot;, $EXPR$)" description="Slf4j log value at debug level" toReformat="false" toShortenFQNames="true">
@@ -115,55 +31,13 @@
     <variable name="EXPR" expression="variableOfType(&quot;&quot;)" defaultValue="&quot;expr&quot;" alwaysStopAt="true" />
     <variable name="EXPR_COPY" expression="EXPR" defaultValue="" alwaysStopAt="false" />
     <context>
-      <option name="HTML_TEXT" value="false" />
-      <option name="HTML" value="false" />
-      <option name="XSL_TEXT" value="false" />
-      <option name="XML" value="false" />
-      <option name="JAVA_CODE" value="false" />
-      <option name="JAVA_STATEMENT" value="false" />
-      <option name="JAVA_EXPRESSION" value="false" />
-      <option name="JAVA_DECLARATION" value="false" />
-      <option name="JAVA_COMMENT" value="false" />
-      <option name="JAVA_STRING" value="false" />
-      <option name="COMPLETION" value="false" />
-      <option name="CSS_PROPERTY_VALUE" value="false" />
-      <option name="CSS_DECLARATION_BLOCK" value="false" />
-      <option name="CSS_RULESET_LIST" value="false" />
-      <option name="CSS" value="false" />
-      <option name="MAVEN" value="false" />
       <option name="SCALA" value="true" />
-      <option name="SCALA_XML" value="true" />
-      <option name="SCALA_COMMENT" value="true" />
-      <option name="SCALA_STRING" value="true" />
-      <option name="SCALA_CODE" value="true" />
-      <option name="OTHER" value="false" />
     </context>
   </template>
   <template name="logt" value="$LOGGER$.trace(&quot;$END$&quot;)" description="Slf4j log at trace level" toReformat="false" toShortenFQNames="true">
     <variable name="LOGGER" expression="variableOfType(&quot;org.slf4j.Logger&quot;)" defaultValue="&quot;logger&quot;" alwaysStopAt="false" />
     <context>
-      <option name="HTML_TEXT" value="false" />
-      <option name="HTML" value="false" />
-      <option name="XSL_TEXT" value="false" />
-      <option name="XML" value="false" />
-      <option name="JAVA_CODE" value="false" />
-      <option name="JAVA_STATEMENT" value="false" />
-      <option name="JAVA_EXPRESSION" value="false" />
-      <option name="JAVA_DECLARATION" value="false" />
-      <option name="JAVA_COMMENT" value="false" />
-      <option name="JAVA_STRING" value="false" />
-      <option name="COMPLETION" value="false" />
-      <option name="CSS_PROPERTY_VALUE" value="false" />
-      <option name="CSS_DECLARATION_BLOCK" value="false" />
-      <option name="CSS_RULESET_LIST" value="false" />
-      <option name="CSS" value="false" />
-      <option name="MAVEN" value="false" />
       <option name="SCALA" value="true" />
-      <option name="SCALA_XML" value="true" />
-      <option name="SCALA_COMMENT" value="true" />
-      <option name="SCALA_STRING" value="true" />
-      <option name="SCALA_CODE" value="true" />
-      <option name="OTHER" value="false" />
     </context>
   </template>
   <template name="logtv" value="$LOGGER$.trace(&quot;$EXPR_COPY$ = {}&quot;, $EXPR$)" description="Slf4j log value at trace level" toReformat="false" toShortenFQNames="true">
@@ -171,55 +45,13 @@
     <variable name="EXPR" expression="variableOfType(&quot;&quot;)" defaultValue="&quot;expr&quot;" alwaysStopAt="true" />
     <variable name="EXPR_COPY" expression="EXPR" defaultValue="" alwaysStopAt="false" />
     <context>
-      <option name="HTML_TEXT" value="false" />
-      <option name="HTML" value="false" />
-      <option name="XSL_TEXT" value="false" />
-      <option name="XML" value="false" />
-      <option name="JAVA_CODE" value="false" />
-      <option name="JAVA_STATEMENT" value="false" />
-      <option name="JAVA_EXPRESSION" value="false" />
-      <option name="JAVA_DECLARATION" value="false" />
-      <option name="JAVA_COMMENT" value="false" />
-      <option name="JAVA_STRING" value="false" />
-      <option name="COMPLETION" value="false" />
-      <option name="CSS_PROPERTY_VALUE" value="false" />
-      <option name="CSS_DECLARATION_BLOCK" value="false" />
-      <option name="CSS_RULESET_LIST" value="false" />
-      <option name="CSS" value="false" />
-      <option name="MAVEN" value="false" />
       <option name="SCALA" value="true" />
-      <option name="SCALA_XML" value="true" />
-      <option name="SCALA_COMMENT" value="true" />
-      <option name="SCALA_STRING" value="true" />
-      <option name="SCALA_CODE" value="true" />
-      <option name="OTHER" value="false" />
     </context>
   </template>
   <template name="logw" value="$LOGGER$.warn(&quot;$END$&quot;)" description="Slf4j log at warn level" toReformat="false" toShortenFQNames="true">
     <variable name="LOGGER" expression="variableOfType(&quot;org.slf4j.Logger&quot;)" defaultValue="&quot;logger&quot;" alwaysStopAt="false" />
     <context>
-      <option name="HTML_TEXT" value="false" />
-      <option name="HTML" value="false" />
-      <option name="XSL_TEXT" value="false" />
-      <option name="XML" value="false" />
-      <option name="JAVA_CODE" value="false" />
-      <option name="JAVA_STATEMENT" value="false" />
-      <option name="JAVA_EXPRESSION" value="false" />
-      <option name="JAVA_DECLARATION" value="false" />
-      <option name="JAVA_COMMENT" value="false" />
-      <option name="JAVA_STRING" value="false" />
-      <option name="COMPLETION" value="false" />
-      <option name="CSS_PROPERTY_VALUE" value="false" />
-      <option name="CSS_DECLARATION_BLOCK" value="false" />
-      <option name="CSS_RULESET_LIST" value="false" />
-      <option name="CSS" value="false" />
-      <option name="MAVEN" value="false" />
       <option name="SCALA" value="true" />
-      <option name="SCALA_XML" value="true" />
-      <option name="SCALA_COMMENT" value="true" />
-      <option name="SCALA_STRING" value="true" />
-      <option name="SCALA_CODE" value="true" />
-      <option name="OTHER" value="false" />
     </context>
   </template>
   <template name="logwv" value="$LOGGER$.warn(&quot;$EXPR_COPY$ = {}&quot;, $EXPR$)" description="Slf4j log value at warn level" toReformat="false" toShortenFQNames="true">
@@ -227,55 +59,13 @@
     <variable name="EXPR" expression="variableOfType(&quot;&quot;)" defaultValue="&quot;expr&quot;" alwaysStopAt="true" />
     <variable name="EXPR_COPY" expression="EXPR" defaultValue="" alwaysStopAt="false" />
     <context>
-      <option name="HTML_TEXT" value="false" />
-      <option name="HTML" value="false" />
-      <option name="XSL_TEXT" value="false" />
-      <option name="XML" value="false" />
-      <option name="JAVA_CODE" value="false" />
-      <option name="JAVA_STATEMENT" value="false" />
-      <option name="JAVA_EXPRESSION" value="false" />
-      <option name="JAVA_DECLARATION" value="false" />
-      <option name="JAVA_COMMENT" value="false" />
-      <option name="JAVA_STRING" value="false" />
-      <option name="COMPLETION" value="false" />
-      <option name="CSS_PROPERTY_VALUE" value="false" />
-      <option name="CSS_DECLARATION_BLOCK" value="false" />
-      <option name="CSS_RULESET_LIST" value="false" />
-      <option name="CSS" value="false" />
-      <option name="MAVEN" value="false" />
       <option name="SCALA" value="true" />
-      <option name="SCALA_XML" value="true" />
-      <option name="SCALA_COMMENT" value="true" />
-      <option name="SCALA_STRING" value="true" />
-      <option name="SCALA_CODE" value="true" />
-      <option name="OTHER" value="false" />
     </context>
   </template>
   <template name="loge" value="$LOGGER$.error(&quot;$END$&quot;)" description="Slf4j log at error level" toReformat="false" toShortenFQNames="true">
     <variable name="LOGGER" expression="variableOfType(&quot;org.slf4j.Logger&quot;)" defaultValue="&quot;logger&quot;" alwaysStopAt="false" />
     <context>
-      <option name="HTML_TEXT" value="false" />
-      <option name="HTML" value="false" />
-      <option name="XSL_TEXT" value="false" />
-      <option name="XML" value="false" />
-      <option name="JAVA_CODE" value="false" />
-      <option name="JAVA_STATEMENT" value="false" />
-      <option name="JAVA_EXPRESSION" value="false" />
-      <option name="JAVA_DECLARATION" value="false" />
-      <option name="JAVA_COMMENT" value="false" />
-      <option name="JAVA_STRING" value="false" />
-      <option name="COMPLETION" value="false" />
-      <option name="CSS_PROPERTY_VALUE" value="false" />
-      <option name="CSS_DECLARATION_BLOCK" value="false" />
-      <option name="CSS_RULESET_LIST" value="false" />
-      <option name="CSS" value="false" />
-      <option name="MAVEN" value="false" />
       <option name="SCALA" value="true" />
-      <option name="SCALA_XML" value="true" />
-      <option name="SCALA_COMMENT" value="true" />
-      <option name="SCALA_STRING" value="true" />
-      <option name="SCALA_CODE" value="true" />
-      <option name="OTHER" value="false" />
     </context>
   </template>
   <template name="logev" value="$LOGGER$.error(&quot;$EXPR_COPY$ = {}&quot;, $EXPR$)" description="Slf4j log value at error level" toReformat="false" toShortenFQNames="true">
@@ -283,28 +73,7 @@
     <variable name="EXPR" expression="variableOfType(&quot;&quot;)" defaultValue="&quot;expr&quot;" alwaysStopAt="true" />
     <variable name="EXPR_COPY" expression="EXPR" defaultValue="" alwaysStopAt="false" />
     <context>
-      <option name="HTML_TEXT" value="false" />
-      <option name="HTML" value="false" />
-      <option name="XSL_TEXT" value="false" />
-      <option name="XML" value="false" />
-      <option name="JAVA_CODE" value="false" />
-      <option name="JAVA_STATEMENT" value="false" />
-      <option name="JAVA_EXPRESSION" value="false" />
-      <option name="JAVA_DECLARATION" value="false" />
-      <option name="JAVA_COMMENT" value="false" />
-      <option name="JAVA_STRING" value="false" />
-      <option name="COMPLETION" value="false" />
-      <option name="CSS_PROPERTY_VALUE" value="false" />
-      <option name="CSS_DECLARATION_BLOCK" value="false" />
-      <option name="CSS_RULESET_LIST" value="false" />
-      <option name="CSS" value="false" />
-      <option name="MAVEN" value="false" />
       <option name="SCALA" value="true" />
-      <option name="SCALA_XML" value="true" />
-      <option name="SCALA_COMMENT" value="true" />
-      <option name="SCALA_STRING" value="true" />
-      <option name="SCALA_CODE" value="true" />
-      <option name="OTHER" value="false" />
     </context>
   </template>
   <template name="logdm" value="$LOGGER$.debug(&quot;$METHOD_NAME$($PARAMETERS$)&quot;$POSSIBLE_COMMA$$PARAMETER_VALUES$)" description="Slf4j log method name and parameters at debug level" toReformat="true" toShortenFQNames="true">
@@ -314,28 +83,7 @@
     <variable name="POSSIBLE_COMMA" expression="" defaultValue="&quot;,&quot;" alwaysStopAt="true" />
     <variable name="PARAMETER_VALUES" expression="groovyScript(&quot;_1.collect {it}.join(', ')&quot;, methodParameters())" defaultValue="" alwaysStopAt="false" />
     <context>
-      <option name="HTML_TEXT" value="false" />
-      <option name="HTML" value="false" />
-      <option name="XSL_TEXT" value="false" />
-      <option name="XML" value="false" />
-      <option name="JAVA_CODE" value="false" />
-      <option name="JAVA_STATEMENT" value="false" />
-      <option name="JAVA_EXPRESSION" value="false" />
-      <option name="JAVA_DECLARATION" value="false" />
-      <option name="JAVA_COMMENT" value="false" />
-      <option name="JAVA_STRING" value="false" />
-      <option name="COMPLETION" value="false" />
-      <option name="CSS_PROPERTY_VALUE" value="false" />
-      <option name="CSS_DECLARATION_BLOCK" value="false" />
-      <option name="CSS_RULESET_LIST" value="false" />
-      <option name="CSS" value="false" />
-      <option name="MAVEN" value="false" />
       <option name="SCALA" value="true" />
-      <option name="SCALA_XML" value="true" />
-      <option name="SCALA_COMMENT" value="true" />
-      <option name="SCALA_STRING" value="true" />
-      <option name="SCALA_CODE" value="true" />
-      <option name="OTHER" value="false" />
     </context>
   </template>
 </templateSet>

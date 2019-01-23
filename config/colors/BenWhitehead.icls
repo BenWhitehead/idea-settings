@@ -1,6 +1,4 @@
 <scheme name="BenWhitehead" version="142" parent_scheme="Default">
-  <option name="EDITOR_FONT_SIZE" value="12" />
-  <option name="EDITOR_FONT_NAME" value="Courier New" />
   <colors>
     <option name="ADDED_LINES_COLOR" value="2d4b2d" />
     <option name="ANNOTATIONS_COLOR" value="808080" />
@@ -102,6 +100,7 @@
         <option name="ERROR_STRIPE_COLOR" value="800000" />
       </value>
     </option>
+    <option name="BUILD.BUILTIN_NAME" baseAttributes="DEFAULT_PREDEFINED_SYMBOL" />
     <option name="Backquote command `...`">
       <value>
         <option name="FOREGROUND" value="800080" />
@@ -702,14 +701,6 @@
         <option name="ERROR_STRIPE_COLOR" value="ccccff" />
       </value>
     </option>
-    <option name="IGNORE.BRACKET" baseAttributes="DEFAULT_KEYWORD" />
-    <option name="IGNORE.COMMENT" baseAttributes="DEFAULT_LINE_COMMENT" />
-    <option name="IGNORE.HEADER" baseAttributes="DEFAULT_DOC_COMMENT_TAG" />
-    <option name="IGNORE.NEGATION" baseAttributes="DEFAULT_KEYWORD" />
-    <option name="IGNORE.SECTION" baseAttributes="DEFAULT_DOC_COMMENT" />
-    <option name="IGNORE.SLASH" baseAttributes="DEFAULT_COMMA" />
-    <option name="IGNORE.SYNTAX" baseAttributes="DEFAULT_INSTANCE_FIELD" />
-    <option name="IGNORE.VALUE" baseAttributes="DEFAULT_STRING" />
     <option name="IMPLICIT_ANONYMOUS_CLASS_PARAMETER_ATTRIBUTES">
       <value>
         <option name="FOREGROUND" value="ab71bf" />

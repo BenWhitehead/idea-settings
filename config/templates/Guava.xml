@@ -12,25 +12,7 @@
     <variable name="NAME_COPY3" expression="NAME" defaultValue="" alwaysStopAt="false" />
     <variable name="COMPARE_NAME_COPY2" expression="COMPARE_NAME" defaultValue="" alwaysStopAt="false" />
     <context>
-      <option name="HTML_TEXT" value="false" />
-      <option name="HTML" value="false" />
-      <option name="XSL_TEXT" value="false" />
-      <option name="XML" value="false" />
-      <option name="XML_TEXT" value="false" />
-      <option name="JSON" value="false" />
-      <option name="JAVA_CODE" value="false" />
-      <option name="JAVA_STATEMENT" value="false" />
-      <option name="JAVA_EXPRESSION" value="false" />
       <option name="JAVA_DECLARATION" value="true" />
-      <option name="JAVA_COMMENT" value="false" />
-      <option name="JAVA_STRING" value="false" />
-      <option name="COMPLETION" value="false" />
-      <option name="CSS_PROPERTY_VALUE" value="false" />
-      <option name="CSS_DECLARATION_BLOCK" value="false" />
-      <option name="CSS_RULESET_LIST" value="false" />
-      <option name="CSS" value="false" />
-      <option name="MAVEN" value="false" />
-      <option name="OTHER" value="false" />
     </context>
   </template>
   <template name="gtrans" value="private static final class $NAME$ implements com.google.common.base.Function&lt;$TYPE$, $TYPE2$&gt; {&#10;    private static final $NAME_COPY$ INSTANCE = new $NAME_COPY$();&#10;    @java.lang.Override&#10;    public $TYPE2_COPY$ apply(final $TYPE_COPY$ input) {&#10;        return $END$;&#10;    }&#10;}&#10;&#10;@org.jetbrains.annotations.NotNull&#10;public static com.google.common.base.Function&lt;$TYPE_COPY$, $TYPE2_COPY$&gt; $NAME_COPY2$() {&#10;    return $NAME_COPY$.INSTANCE;&#10;}&#10;" description="Stop a function for mapping" toReformat="true" toShortenFQNames="true">
