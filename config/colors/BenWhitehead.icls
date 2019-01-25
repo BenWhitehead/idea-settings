@@ -1,4 +1,8 @@
 <scheme name="BenWhitehead" version="142" parent_scheme="Default">
+  <option name="FONT_SCALE" value="1.0" />
+  <option name="LINE_SPACING" value="1.0" />
+  <option name="EDITOR_FONT_SIZE" value="12" />
+  <option name="EDITOR_FONT_NAME" value="Courier New" />
   <colors>
     <option name="ADDED_LINES_COLOR" value="2d4b2d" />
     <option name="ANNOTATIONS_COLOR" value="808080" />
@@ -723,6 +727,16 @@
         <option name="FOREGROUND" value="3d3d3d" />
       </value>
     </option>
+    <option name="INLINE_PARAMETER_HINT_CURRENT">
+      <value>
+        <option name="FOREGROUND" value="5b5b5b" />
+      </value>
+    </option>
+    <option name="INLINE_PARAMETER_HINT_HIGHLIGHTED">
+      <value>
+        <option name="FOREGROUND" value="5b5b5b" />
+      </value>
+    </option>
     <option name="INSTANCE_FIELD_ATTRIBUTES">
       <value>
         <option name="FOREGROUND" value="669a" />
@@ -1174,19 +1188,11 @@
         <option name="FONT_TYPE" value="1" />
       </value>
     </option>
-    <option name="PY.BUILTIN_NAME" baseAttributes="DEFAULT_PREDEFINED_SYMBOL" />
-    <option name="PY.CLASS_DEFINITION" baseAttributes="DEFAULT_CLASS_NAME" />
-    <option name="PY.DECORATOR" baseAttributes="DEFAULT_IDENTIFIER" />
-    <option name="PY.FUNC_DEFINITION" baseAttributes="DEFAULT_FUNCTION_DECLARATION" />
-    <option name="PY.KEYWORD_ARGUMENT" baseAttributes="DEFAULT_PARAMETER" />
-    <option name="PY.PREDEFINED_DEFINITION" baseAttributes="DEFAULT_PREDEFINED_SYMBOL" />
-    <option name="PY.PREDEFINED_USAGE" baseAttributes="DEFAULT_PREDEFINED_SYMBOL" />
     <option name="PY.SELF_PARAMETER">
       <value>
         <option name="FOREGROUND" value="5a5e60" />
       </value>
     </option>
-    <option name="PY.STRING.U" baseAttributes="DEFAULT_STRING" />
     <option name="Parentheses">
       <value>
         <option name="FOREGROUND" value="644b00" />
