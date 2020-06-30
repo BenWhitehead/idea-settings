@@ -14,4 +14,18 @@
     <variable name="EX" expression="" defaultValue="&quot;t: Throwable&quot;" alwaysStopAt="true" />
   </template>
   <template name="cev" value="collector.emit(new Values($END$))" description="Emit a value to a Storm collector" toReformat="false" toShortenFQNames="true" />
+  <template name="snip" value="$END$&#10;Snippet(&#10;  &quot;$DATE$&quot;,&#10;  &quot;&quot;&quot;&#10;    |$DATA$&#10;  &quot;&quot;&quot;.stripMargin&#10;)," description="Stub a snippet" toReformat="true" toShortenFQNames="true">
+    <variable name="DATE" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="DATA" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="SCALA_CODE" value="true" />
+    </context>
+  </template>
+  <template name="cdec" value="implicit val decode$TYPE_COPY$: io.circe.Decoder[$TYPE$] = io.circe.Decoder.instance { c: io.circe.HCursor =&gt;&#10;  for {&#10;    $END$&#10;  } yield $TYPE_COPY$()&#10;}" description="Circe Decoder" toReformat="true" toShortenFQNames="true">
+    <variable name="TYPE" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="TYPE_COPY" expression="TYPE" defaultValue="" alwaysStopAt="false" />
+    <context>
+      <option name="SCALA_CODE" value="true" />
+    </context>
+  </template>
 </templateSet>

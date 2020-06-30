@@ -15,10 +15,123 @@
       </profile-state>
     </entry>
   </component>
-  <component name="RefactoringSettings">
-    <option name="MOVE_PREVIEW_USAGES" value="false" />
-    <option name="INTRODUCE_FIELD_VISIBILITY" value="private" />
-    <option name="INTRODUCE_CONSTANT_VISIBILITY" value="public" />
-    <option name="INTRODUCE_LOCAL_CREATE_FINALS" value="true" />
+  <component name="NodeJsLocalInterpreters">
+    <local-interpreter path="/usr/bin/node">
+      <version-cache version="10.20.1" last-modified="1586719374000" />
+    </local-interpreter>
+  </component>
+  <component name="NotRoamableUiSettings">
+    <option name="ideAAType" value="Greyscale" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="BuildView.Splitter.Proportion" value="0.47425476" />
+    <property name="CREATE_FIELD_FROM_PARAMETER_DECLARE_FINAL" value="true" />
+    <property name="ColorChooser.RecentColors" value="202-218-186-255,,,237-252-237-255,,,99-153-200-255,,,0-99-99-255,,,60-63-65-255,,,171-113-191-255,,,204-0-0-255,,,255-128-0-255,,,205-107-0-255,,,187-187-187-51,,,187-187-187-71,,,255-255-255-51,,,255-255-255-71,,,115-115-115-51,,,115-115-115-71" />
+    <property name="CommitChangeListDialog.DETAILS_SHOW_OPTION_" value="false" />
+    <property name="CommitChangeListDialog.DETAILS_SPLITTER_PROPORTION_2" value="0.62850183" />
+    <property name="CommitChangeListDialog.SPLITTER_PROPORTION_2" value="0.50766873" />
+    <property name="CommittedChanges.SplitterProportions.0" value="700" />
+    <property name="CommittedChanges.SplitterProportions.1" value="500" />
+    <property name="Copy.OpenInEditor" value="true" />
+    <property name="DocumentationAutoUpdateEnabled" value="true" />
+    <property name="ExpandBeforeRunStepsPanel" value="true" />
+    <property name="ExpandRunDashboardTypesPanel" value="false" />
+    <property name="FileTemplates.SelectedTemplate" value="HTML File" />
+    <property name="GradleSupport.showInternalTestNodes" value="false" />
+    <property name="InstalledPluginsSearchHistory" value="php&#10;ph&#10;p&#10;txt&#10;sbt" />
+    <property name="JUnit.Splitter.Proportion" value="0.17669377" />
+    <property name="JUnitSupport.hideIgnoredTests" value="false" />
+    <property name="JUnitSupport.hidePassedTests" value="true" />
+    <property name="JUnitSupport.selectFirtsDefect" value="true" />
+    <property name="JUnitSupport.sortTestsAlphabetically" value="false" />
+    <property name="JUnitSupport.sortTestsByDuration" value="false" />
+    <property name="JUnitSupport.trackRunningTest" value="false" />
+    <property name="KEYMAP" value="compile" />
+    <property name="LAST_INJECTED_LANGUAGE" value="HTML" />
+    <property name="LayoutCode.optimizeImports" value="false" />
+    <property name="LayoutCode.processChangedText" value="false" />
+    <property name="LayoutCode.rearrangeEntriesJava" value="true" />
+    <property name="MarketplacePluginsSearchHistory" value="autovalue&#10;bazel&#10;baz&#10;ba&#10;nginx" />
+    <property name="MavenModuleWizard.inheritGroupId" value="true" />
+    <property name="MavenModuleWizard.inheritVersion" value="true" />
+    <property name="MemberChooser.copyJavadoc" value="false" />
+    <property name="MemberChooser.showClasses" value="true" />
+    <property name="PLUGIN_FILTER" value="node&#10;javascript&#10;scala&#10;clang&#10;line sort" />
+    <property name="PluginConfigurable.selectionTab" value="1" />
+    <property name="RunConfigurable.dividerProportion" value="0.20920503" />
+    <property name="SHELLCHECK.PATH" value="$APPLICATION_PLUGINS_DIR$/Shell Script/shellcheck" />
+    <property name="ScalaSupport.hideIgnoredTests" value="false" />
+    <property name="ScalaSupport.hidePassedTests" value="false" />
+    <property name="ScalaSupport.sortTestsAlphabetically" value="true" />
+    <property name="SettingsSearchHistory" value="logvv&#10;javascript&#10;nodejs&#10;file types&#10;goroot" />
+    <property name="ShowDocumentationInToolWindow" value="false" />
+    <property name="SplitFileEditor.Proportion" value="0.5680191" />
+    <property name="TEMPLATES_FILTER_HISTORY" value="eclipse&#10;java" />
+    <property name="TestNGSupport.hideConfig" value="true" />
+    <property name="TestNGSupport.hidePassedTests" value="false" />
+    <property name="TrendingPluginsSearchHistory" value="lombok&#10;shellsupport&#10;toml&#10;makefile&#10;dotnet" />
+    <property name="Vcs.Log.Text.Filter.History" value="86531b7&#10;benwhitehead@&#10;benwhitehead" />
+    <property name="android-component-compatibility-check" value="1541461558545" />
+    <property name="bazel.binary.path" value="bazel" />
+    <property name="blaze-testSupport.hidePassedTests" value="false" />
+    <property name="blaze.binary.path" value="/usr/bin/blaze" />
+    <property name="blaze.edit.project.view.control.last.project.location" value="$USER_HOME$/idea-citc-workspaces" />
+    <property name="blaze.edit.project.view.control.last.workspace.mode" value="FromWorkspace" />
+    <property name="build.toolwindow.Sync.selection.state" value="com.intellij.build.BuildTreeConsoleView" />
+    <property name="build.toolwindow.run.selection.state" value="com.intellij.build.BuildTreeConsoleView" />
+    <property name="com.intellij.history.integration.ui.views.DirectoryHistoryDialog.0" value="300" />
+    <property name="com.intellij.history.integration.ui.views.FileHistoryDialog.0" value="167" />
+    <property name="com.intellij.history.integration.ui.views.FileHistoryDialog.1" value="800" />
+    <property name="com.intellij.openapi.roots.ui.configuration.TabbedModuleEditor.selectedEditor" value="Dependencies" />
+    <property name="debug.configuration.alternate.action.ad" value="true" />
+    <property name="debugger.smart.chooser.counter" value="2" />
+    <property name="decompiler.legal.notice.accepted" value="true" />
+    <property name="defaultJdkConfigured" value="true" />
+    <property name="dir.diff.panel.divider.location" value="437" />
+    <property name="dir.diff.space.button.info" value="3" />
+    <property name="export.settings.marked" value="colors.scheme.xml|colors|editor.xml|keymap.xml|keymaps|" />
+    <property name="export.settings.path" value="$USER_HOME$/Downloads/idea-settings.zip" />
+    <property name="file.chooser.recent.files" value="$USER_HOME$/src/github.com/googleapis/java/shared-config&#10;/usr/local/google/home/benwhitehead/src/youtrack-workflows&#10;/usr/local/google/home/benwhitehead/src/github.com/dcos/cosmos&#10;/usr/local/google/home/benwhitehead/src/github.com/googleapis/google-api-java-client-services&#10;/usr/local/google/home/benwhitehead/src/github.com/googleapis/java/bigquery&#10;/usr/local/google/home/benwhitehead/src/sandbox/firestore/scala&#10;/usr/local/google/home/benwhitehead/src/github.com/googleapis/nodejs/firestore-session&#10;/usr/local/google/home/benwhitehead/src/github.com/googleapis/nodejs/firestore&#10;/usr/local/google/home/benwhitehead/src/github.com/GoogleCloudPlatform/google-cloud-datastore&#10;/usr/local/google/home/benwhitehead/src/github.com/googleapis/python/firestore&#10;/usr/local/google/home/benwhitehead/src/github.com/GoogleCloudPlatform/java-docs-samples/firestore/pom.xml&#10;/usr/local/google/home/benwhitehead/src/github.com/GoogleCloudPlatform/java-docs-samples&#10;/usr/local/google/home/benwhitehead/src/github.com/googleapis/java/pubsub&#10;/usr/local/google/home/benwhitehead/.gcloud&#10;/usr/local/google/home/benwhitehead/src/github.com/googleapis/nodejs/datastore/samples&#10;/usr/local/google/home/benwhitehead/bin/javapMavenJars.bash&#10;/usr/local/google/home/benwhitehead/bin/javapMavenJars&#10;/usr/local/google/home/benwhitehead/src/sandbox/firestore/python&#10;/usr/local/google/home/benwhitehead/src/sandbox/firestore/java&#10;/usr/local/google/home/benwhitehead/src/github.com/mojohaus/flatten-maven-plugin&#10;/usr/local/google/home/benwhitehead/src/github.com/circe/circe&#10;/usr/local/google/home/benwhitehead/src/github.com/gigamonkey/monorepoize&#10;/usr/local/google/home/benwhitehead/.pyenv/versions/datastore-sandbox/bin/python&#10;/usr/local/google/home/benwhitehead/src/sandbox/datastore/python&#10;/usr/local/google/home/benwhitehead/src/sandbox/datastore/nodejs&#10;/usr/local/google/home/benwhitehead/src/github.com/BenWhitehead/cassandra-mesos&#10;/usr/local/google/home/benwhitehead/src/github.com/googleapis/java/core&#10;/usr/local/google/home/benwhitehead/src/github.com/googleapis/google-cloud-go/firestore&#10;/usr/local/google/home/benwhitehead/src/github.com/googleapis/google-cloud-go&#10;/usr/local/google/home/benwhitehead/src/firestore-sandbox-nodejs" />
+    <property name="file.gist.reindex.count" value="1418313" />
+    <property name="fileTypeChangedCounter" value="88" />
+    <property name="generate-from-build-file.last-workspace-path" value="google/firestore/BUILD&#10;experimental/engedu/gti/projects/week20181029/nyc/gcpteam1/BUILD" />
+    <property name="go.last.update.timestamp" value="1586889357705" />
+    <property name="go.libraries.notification.had.been.shown" value="true" />
+    <property name="ignore.bundled.jre.version.message" value="true" />
+    <property name="import-from-workspace.last-workspace-path" value="java/com/google/engedu/languages/java101/java101.blazeproject" />
+    <property name="installed.kotlin.plugin.version" value="1.3.41-release-IJ2019.2-1" />
+    <property name="java.module.default.source.root" value="src" />
+    <property name="javascript.return.tag" value="return" />
+    <property name="jdk.selected.JAVA_MODULE" value="1.8" />
+    <property name="js.only.type.based.completion" value="true" />
+    <property name="js.overrides.completion" value="true" />
+    <property name="js.var.names.completion" value="true" />
+    <property name="js.var.names.completion.kind" value="TYPES_FOR_PARAMS" />
+    <property name="kotlin.plugin.releaseDate" value="1.3.41-release-IJ2019.2-1:2019-07-03" />
+    <property name="last.imported.location" value="$USER_HOME$/src/github.com/GoogleCloudPlatform/java-docs-samples/firestore/pom.xml" />
+    <property name="lastTip" value="146" />
+    <property name="log.file.format.editor.notification.disabled" value="true" />
+    <property name="packagesearch.endpoint.url.fulltext" value="https://package-search.services.jetbrains.com/api/search/idea/fulltext" />
+    <property name="packagesearch.endpoint.url.suggest" value="https://package-search.services.jetbrains.com/api/search/idea/suggest" />
+    <property name="packagesearch.status.updated.ts" value="1593115501265" />
+    <property name="project.wizard.group" value="org.jetbrains.idea.maven.wizards.MavenModuleBuilder" />
+    <property name="project.wizard.template" value="Static Web" />
+    <property name="quick.doc.font.size" value="SMALL" />
+    <property name="scala.last.updated" value="1592428655942" />
+    <property name="selected.color.option.type" value="ScrollBar.thumbColor" />
+    <property name="settings.code.style.selected.tab.JAVA" value="Wrapping and Braces" />
+    <property name="shown.python.language.notification" value="true" />
+    <property name="tasks.pass.word.conversion.enforced" value="true" />
+    <property name="ts.lib.d.ts.version" value="3.5.2" />
+    <property name="vcs.history.diff.splitter.proportion" value="0.36978507" />
+    <property name="vcs.log.changes.splitter.proportion" value="0.7048528" />
+    <property name="vcs.log.details.splitter.proportion" value="0.56237626" />
+  </component>
+  <component name="PyTestFrameworkService">
+    <option name="SDK_TO_PYTEST">
+      <map>
+        <entry key="$USER_HOME$/.pyenv/versions/3.6.4/envs/python-docs-samples/bin/python" value="false" />
+      </map>
+    </option>
   </component>
 </application>

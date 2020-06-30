@@ -1,4 +1,4 @@
-<templateSet group="json-schema">
+<templateSet group="BenWhitehead json-schema">
   <template name="$obj" value="&quot;$NAME$&quot;: {&#10;  &quot;type&quot;: &quot;object&quot;,&#10;  &quot;properties&quot;: {&#10;     $END$&#10;  },&#10;  &quot;required&quot;: [&#10;  ],&#10;  &quot;additionalProperties&quot;: $ADDITIONAL_PROPERTIES$&#10;}" description="" toReformat="true" toShortenFQNames="true">
     <variable name="NAME" expression="" defaultValue="" alwaysStopAt="true" />
     <variable name="ADDITIONAL_PROPERTIES" expression="completeSmart()" defaultValue="false" alwaysStopAt="true" />

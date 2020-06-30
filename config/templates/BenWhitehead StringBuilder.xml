@@ -1,4 +1,4 @@
-<templateSet group="StringBuilder">
+<templateSet group="BenWhitehead StringBuilder">
   <template name="SB" value="final StringBuilder sb = new StringBuilder();" description="final StringBuilder sb = new StringBuilder();" toReformat="false" toShortenFQNames="true">
     <context>
       <option name="JAVA_CODE" value="true" />

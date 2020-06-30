@@ -1,4 +1,4 @@
-<templateSet group="Slf4j">
+<templateSet group="BenWhitehead Slf4j">
   <template name="LOG" value="private static final org.slf4j.Logger $LOGGER_NAME$ = org.slf4j.LoggerFactory.getLogger($LOGGER_CATEGORY$.class);" description="Create an Slf4j Logger" toReformat="false" toShortenFQNames="true">
     <variable name="LOGGER_NAME" expression="suggestVariableName()" defaultValue="LOG" alwaysStopAt="true" />
     <variable name="LOGGER_CATEGORY" expression="className()" defaultValue="" alwaysStopAt="true" />

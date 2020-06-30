@@ -1,0 +1,17 @@
+<templateSet group="BenWhitehead JavaScript">
+  <template name="logv" value="//console.log(`$EXPR_COPY$ = $${$EXPR$}`);&#10;console.log(&quot;$EXPR_COPY$ = &quot; + $EXPR_COPY$);$END$" description="Console Log a value" toReformat="false" toShortenFQNames="true">
+    <variable name="EXPR" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="EXPR_COPY" expression="EXPR" defaultValue="" alwaysStopAt="false" />
+    <context>
+      <option name="JS_STATEMENT" value="true" />
+    </context>
+  </template>
+  <template name="logvv" value="console.log(`$EXPR_COPY$ = $${util.inspect($EXPR$, {depth: $DEPTH$})}`);" description="Console Log a value using util" toReformat="false" toShortenFQNames="true">
+    <variable name="EXPR" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="EXPR_COPY" expression="EXPR" defaultValue="" alwaysStopAt="false" />
+    <variable name="DEPTH" expression="&quot;10&quot;" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="JS_STATEMENT" value="true" />
+    </context>
+  </template>
+</templateSet>

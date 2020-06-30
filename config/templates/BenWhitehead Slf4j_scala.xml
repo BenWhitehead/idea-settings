@@ -1,9 +1,12 @@
-<templateSet group="Slf4j_scala">
-  <template name="LOG" value="lazy val $LOGGER_NAME$ = org.slf4j.LoggerFactory.getLogger(classOf[$LOGGER_CATEGORY$])" description="Create an Slf4j Logger" toReformat="false" toShortenFQNames="true">
+<templateSet group="BenWhitehead Slf4j_scala">
+  <template name="LOG" value="private[this] lazy val $LOGGER_NAME$ = org.slf4j.LoggerFactory.getLogger(classOf[$LOGGER_CATEGORY$])" description="Create an Slf4j Logger" toReformat="false" toShortenFQNames="true">
     <variable name="LOGGER_NAME" expression="suggestVariableName()" defaultValue="&quot;logger&quot;" alwaysStopAt="true" />
     <variable name="LOGGER_CATEGORY" expression="className()" defaultValue="" alwaysStopAt="true" />
     <context>
       <option name="SCALA" value="true" />
+      <option name="SCALA_COMMENT" value="false" />
+      <option name="SCALA_STRING" value="false" />
+      <option name="SCALA_XML" value="false" />
     </context>
   </template>
   <template name="logi" value="$LOGGER$.info(&quot;$END$&quot;)" description="Slf4j log at info level" toReformat="false" toShortenFQNames="true">

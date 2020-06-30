@@ -1,0 +1,18 @@
+<templateSet group="BenWhitehead clirr">
+  <template name="difff" value="&lt;difference&gt;&#10;  &lt;differenceType&gt;$DIFF_TYPE$&lt;/differenceType&gt;&#10;  &lt;className&gt;$CLASS_PATTERN$&lt;/className&gt;&#10;  &lt;field&gt;$FIELD_NAME$&lt;/field&gt;&#10;&lt;/difference&gt;&#10;$END$" description="Generate a clirr difference block for a field" toReformat="true" toShortenFQNames="true">
+    <variable name="DIFF_TYPE" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="CLASS_PATTERN" expression="" defaultValue="&quot;com/google/cloud/conformance/storage/v1/*&quot;" alwaysStopAt="true" />
+    <variable name="FIELD_NAME" expression="" defaultValue="&quot;*&quot;" alwaysStopAt="true" />
+    <context>
+      <option name="XML_TEXT" value="true" />
+    </context>
+  </template>
+  <template name="diffm" value="&lt;difference&gt;&#10;  &lt;differenceType&gt;$DIFF_TYPE$&lt;/differenceType&gt;&#10;  &lt;className&gt;$CLASS_PATTERN$&lt;/className&gt;&#10;  &lt;method&gt;$FIELD_NAME$&lt;/method&gt;&#10;&lt;/difference&gt;&#10;$END$" description="Generate a clirr difference block for a method" toReformat="true" toShortenFQNames="true">
+    <variable name="DIFF_TYPE" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="CLASS_PATTERN" expression="" defaultValue="&quot;com/google/cloud/conformance/storage/v1/*&quot;" alwaysStopAt="true" />
+    <variable name="FIELD_NAME" expression="" defaultValue="&quot;* *(*)&quot;" alwaysStopAt="true" />
+    <context>
+      <option name="XML_TEXT" value="true" />
+    </context>
+  </template>
+</templateSet>

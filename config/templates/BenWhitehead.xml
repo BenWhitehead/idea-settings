@@ -64,4 +64,16 @@
       <option name="JAVA_CODE" value="true" />
     </context>
   </template>
+  <template name="covFunc" value="static com.google.common.base.Function&lt;$TYPE_FROM_COPY$, $TYPE_TO_COPY$&gt; $FACTORY_METHOD_NAME$() {&#10;  return $CONVERSION_CLASS_NAME_COPY$.INSTANCE;&#10;}&#10;&#10;static final class $CONVERSION_CLASS_NAME$ implements com.google.common.base.Function&lt;$TYPE_FROM$, $TYPE_TO$&gt; {&#10;  final static $CONVERSION_CLASS_NAME_COPY$ INSTANCE = new $CONVERSION_CLASS_NAME_COPY$();&#10;&#10;  @javax.annotation.Nonnull&#10;  @java.lang.Override&#10;  public $TYPE_TO_COPY$ apply(@org.checkerframework.checker.nullness.compatqual.NullableDecl $TYPE_FROM_COPY$ input) {&#10;    com.google.common.base.Preconditions.checkNotNull(input);&#10;    return null;$END$&#10;  }&#10;}&#10;" description="Template out a conversion using guava function" toReformat="true" toShortenFQNames="true">
+    <variable name="TYPE_FROM" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="TYPE_TO" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="CONVERSION_CLASS_NAME" expression="concat(TYPE_FROM, &quot;To&quot;, TYPE_TO)" defaultValue="" alwaysStopAt="true" />
+    <variable name="TYPE_FROM_COPY" expression="TYPE_FROM" defaultValue="" alwaysStopAt="false" />
+    <variable name="TYPE_TO_COPY" expression="TYPE_TO" defaultValue="" alwaysStopAt="false" />
+    <variable name="FACTORY_METHOD_NAME" expression="decapitalize(CONVERSION_CLASS_NAME)" defaultValue="" alwaysStopAt="false" />
+    <variable name="CONVERSION_CLASS_NAME_COPY" expression="CONVERSION_CLASS_NAME" defaultValue="" alwaysStopAt="false" />
+    <context>
+      <option name="JAVA_DECLARATION" value="true" />
+    </context>
+  </template>
 </templateSet>

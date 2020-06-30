@@ -1,0 +1,41 @@
+<templateSet group="BenWhitehead WebSequenceDiagrams">
+  <template name="seq" value="$CALLER$-&gt;+$CALLEE$: $METHOD$&#10;    $END$&#10;$CALLEE$-&gt;-$CALLER$:" description="Create a sequence block for web sequence diagram" toReformat="false" toShortenFQNames="true">
+    <variable name="CALLER" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="CALLEE" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="METHOD" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="CSS" value="false" />
+      <option name="HTML" value="false" />
+      <option name="JAVA_CODE" value="false" />
+      <option name="JAVA_SCRIPT" value="false" />
+      <option name="MAVEN" value="false" />
+      <option name="OTHER" value="true" />
+      <option name="XML" value="false" />
+    </context>
+  </template>
+  <template name="seqopt" value="opt $CONDITION$&#10;    $END$&#10;end" description="opt block for seq" toReformat="false" toShortenFQNames="true">
+    <variable name="CONDITION" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="CSS" value="false" />
+      <option name="HTML" value="false" />
+      <option name="JAVA_CODE" value="false" />
+      <option name="JAVA_SCRIPT" value="false" />
+      <option name="MAVEN" value="false" />
+      <option name="OTHER" value="true" />
+      <option name="XML" value="false" />
+    </context>
+  </template>
+  <template name="seqalt" value="alt $CONDITION1$&#10;    $END$&#10;else $CONDITION2$&#10;    &#10;end" description="alternate seq" toReformat="false" toShortenFQNames="true">
+    <variable name="CONDITION1" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="CONDITION2" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="CSS" value="false" />
+      <option name="HTML" value="false" />
+      <option name="JAVA_CODE" value="false" />
+      <option name="JAVA_SCRIPT" value="false" />
+      <option name="MAVEN" value="false" />
+      <option name="OTHER" value="true" />
+      <option name="XML" value="false" />
+    </context>
+  </template>
+</templateSet>

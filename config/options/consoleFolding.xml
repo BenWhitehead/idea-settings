@@ -6,7 +6,9 @@
         <option value="at cats.data." />
         <option value="at ch.qos.logback." />
         <option value="at com.fasterxml.jackson." />
-        <option value="at com.google." />
+        <option value="at com.google.api.client.http." />
+        <option value="at com.google.api.gax." />
+        <option value="at com.google.datastore.v1." />
         <option value="at com.google.protobuf." />
         <option value="at com.twitter." />
         <option value="at com.twitter.bijection." />
@@ -16,8 +18,12 @@
         <option value="at io.circe." />
         <option value="at io.finch." />
         <option value="at io.github.benwhitehead.finch." />
+        <option value="at io.grpc." />
         <option value="at io.netty." />
+        <option value="at io.opencensus.trace." />
+        <option value="at io.reactivex." />
         <option value="at io.reactivex.netty." />
+        <option value="at java." />
         <option value="at java.base/" />
         <option value="at java.lang.ClassLoader" />
         <option value="at java.lang.Thread.run" />
@@ -32,12 +38,14 @@
         <option value="at org.apache.tomcat." />
         <option value="at org.apache.zookeeper." />
         <option value="at org.jboss.netty." />
+        <option value="at org.jetbrains.plugins.scala." />
         <option value="at org.junit." />
         <option value="at org.junit.Assert." />
         <option value="at org.scalatest." />
         <option value="at org.springframework.aop." />
         <option value="at org.springframework.test." />
         <option value="at org.springframework.web." />
+        <option value="at reactor.core." />
         <option value="at rx." />
         <option value="at rx.internal." />
         <option value="at rx.Observable" />
@@ -46,7 +54,7 @@
         <option value="at sun.misc." />
         <option value="at sun.net." />
         <option value="at sun.nio." />
-        <option value="at io.reactivex." />
+        <option value="at com.google.cloud.RetryHelper." />
       </list>
     </option>
   </component>

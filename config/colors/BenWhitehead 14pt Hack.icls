@@ -1,16 +1,29 @@
-<scheme name="BenWhitehead 16pt" version="142" parent_scheme="Default">
+<scheme name="BenWhitehead 14pt Hack" version="142" parent_scheme="Default">
   <option name="FONT_SCALE" value="1.0" />
   <metaInfo>
-    <property name="created">2018-11-27T17:25:24</property>
+    <property name="created">2019-04-26T15:52:12</property>
     <property name="ide">idea</property>
-    <property name="ideVersion">2018.2.5.0.0</property>
-    <property name="modified">2019-03-21T12:12:22</property>
-    <property name="originalScheme">BenWhitehead</property>
+    <property name="ideVersion">2018.3.6.0.0</property>
+    <property name="modified">2019-05-13T16:48:05</property>
+    <property name="originalScheme">BenWhitehead 12pt Hack</property>
   </metaInfo>
   <option name="LINE_SPACING" value="1.0" />
-  <option name="EDITOR_FONT_SIZE" value="16" />
-  <option name="EDITOR_FONT_NAME" value="Courier New" />
-  <option name="CONSOLE_FONT_NAME" value="Courier New" />
+  <font>
+    <option name="EDITOR_FONT_NAME" value="Hack" />
+    <option name="EDITOR_FONT_SIZE" value="14" />
+  </font>
+  <font>
+    <option name="EDITOR_FONT_NAME" value="Noto Sans Mono" />
+    <option name="EDITOR_FONT_SIZE" value="18" />
+  </font>
+  <console-font>
+    <option name="EDITOR_FONT_NAME" value="Hack" />
+    <option name="EDITOR_FONT_SIZE" value="14" />
+  </console-font>
+  <console-font>
+    <option name="EDITOR_FONT_NAME" value="Noto Sans Mono" />
+    <option name="EDITOR_FONT_SIZE" value="18" />
+  </console-font>
   <colors>
     <option name="ADDED_LINES_COLOR" value="2d4b2d" />
     <option name="ANNOTATIONS_COLOR" value="808080" />
