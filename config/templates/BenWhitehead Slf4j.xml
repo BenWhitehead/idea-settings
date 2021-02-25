@@ -76,7 +76,7 @@
       <option name="JAVA_STATEMENT" value="true" />
     </context>
   </template>
-  <template name="logdm" value="$LOGGER$.debug(&quot;$METHOD_NAME$($PARAMETERS$)&quot;$POSSIBLE_COMMA$$PARAMETER_VALUES$);" description="Slf4j log method name and parameters at debug level" toReformat="true" toShortenFQNames="true">
+  <template name="logdm" value="$LOGGER$.debug(&quot;&gt;&gt;&gt; $METHOD_NAME$($PARAMETERS$)&quot;$POSSIBLE_COMMA$$PARAMETER_VALUES$);" description="Slf4j log method name and parameters at debug level" toReformat="true" toShortenFQNames="true">
     <variable name="LOGGER" expression="variableOfType(&quot;org.slf4j.Logger&quot;)" defaultValue="&quot;LOGGER&quot;" alwaysStopAt="false" />
     <variable name="METHOD_NAME" expression="methodName()" defaultValue="" alwaysStopAt="false" />
     <variable name="PARAMETERS" expression="groovyScript(&quot;_1.collect {it + ' : {}'}.join(', ')&quot;, methodParameters())" defaultValue="" alwaysStopAt="false" />
@@ -84,6 +84,52 @@
     <variable name="PARAMETER_VALUES" expression="groovyScript(&quot;_1.collect {it}.join(', ')&quot;, methodParameters())" defaultValue="" alwaysStopAt="false" />
     <context>
       <option name="JAVA_STATEMENT" value="true" />
+    </context>
+  </template>
+  <template name="logdmx" value="$LOGGER$.debug(&quot;&lt;&lt;&lt; $METHOD_NAME$($PARAMETERS$)&quot;$POSSIBLE_COMMA$$PARAMETER_VALUES$);" description="Slf4j log method name and parameters at debug level" toReformat="true" toShortenFQNames="true">
+    <variable name="LOGGER" expression="variableOfType(&quot;org.slf4j.Logger&quot;)" defaultValue="&quot;LOGGER&quot;" alwaysStopAt="false" />
+    <variable name="METHOD_NAME" expression="methodName()" defaultValue="" alwaysStopAt="false" />
+    <variable name="PARAMETERS" expression="groovyScript(&quot;_1.collect {it + ' : {}'}.join(', ')&quot;, methodParameters())" defaultValue="" alwaysStopAt="false" />
+    <variable name="POSSIBLE_COMMA" expression="" defaultValue="&quot;,&quot;" alwaysStopAt="true" />
+    <variable name="PARAMETER_VALUES" expression="groovyScript(&quot;_1.collect {it}.join(', ')&quot;, methodParameters())" defaultValue="" alwaysStopAt="false" />
+    <context>
+      <option name="JAVA_STATEMENT" value="true" />
+    </context>
+  </template>
+  <template name="logtm" value="$LOGGER$.trace($TRACE_ENTER$, &quot;$METHOD_NAME$($PARAMETERS$)&quot;$POSSIBLE_COMMA$$PARAMETER_VALUES$);" description="Slf4j log entry of method w/ name and parameters at trace level" toReformat="true" toShortenFQNames="true">
+    <variable name="LOGGER" expression="variableOfType(&quot;org.slf4j.Logger&quot;)" defaultValue="&quot;LOGGER&quot;" alwaysStopAt="false" />
+    <variable name="TRACE_ENTER" expression="variableOfType(&quot;org.slf4j.Marker&quot;)" defaultValue="&quot;TRACE_ENTER&quot;" alwaysStopAt="false" />
+    <variable name="METHOD_NAME" expression="methodName()" defaultValue="" alwaysStopAt="false" />
+    <variable name="PARAMETERS" expression="groovyScript(&quot;_1.collect {it + ' : {}'}.join(', ')&quot;, methodParameters())" defaultValue="" alwaysStopAt="false" />
+    <variable name="POSSIBLE_COMMA" expression="" defaultValue="&quot;,&quot;" alwaysStopAt="true" />
+    <variable name="PARAMETER_VALUES" expression="groovyScript(&quot;_1.collect {it}.join(', ')&quot;, methodParameters())" defaultValue="" alwaysStopAt="false" />
+    <context>
+      <option name="JAVA_STATEMENT" value="true" />
+    </context>
+  </template>
+  <template name="logtmx" value="$LOGGER$.trace($TRACE_EXIT$, &quot;$METHOD_NAME$($PARAMETERS$)&quot;$POSSIBLE_COMMA$$PARAMETER_VALUES$);" description="Slf4j log exit of method w/ name and parameters at trace level" toReformat="true" toShortenFQNames="true">
+    <variable name="LOGGER" expression="variableOfType(&quot;org.slf4j.Logger&quot;)" defaultValue="&quot;LOGGER&quot;" alwaysStopAt="false" />
+    <variable name="TRACE_EXIT" expression="&quot;TRACE_EXIT&quot;" defaultValue="&quot;TRACE_EXIT&quot;" alwaysStopAt="false" />
+    <variable name="METHOD_NAME" expression="methodName()" defaultValue="" alwaysStopAt="false" />
+    <variable name="PARAMETERS" expression="groovyScript(&quot;_1.collect {it + ' : {}'}.join(', ')&quot;, methodParameters())" defaultValue="" alwaysStopAt="false" />
+    <variable name="POSSIBLE_COMMA" expression="" defaultValue="&quot;,&quot;" alwaysStopAt="true" />
+    <variable name="PARAMETER_VALUES" expression="groovyScript(&quot;_1.collect {it}.join(', ')&quot;, methodParameters())" defaultValue="" alwaysStopAt="false" />
+    <context>
+      <option name="JAVA_STATEMENT" value="true" />
+    </context>
+  </template>
+  <template name="MTE" value="private static final org.slf4j.Marker $MARKER_NAME$ = org.slf4j.MarkerFactory.getMarker(&quot;$MARKER_CATEGORY$&quot;);" description="Create a trace enter marker" toReformat="false" toShortenFQNames="true">
+    <variable name="MARKER_NAME" expression="&quot;TRACE_ENTER&quot;" defaultValue="" alwaysStopAt="true" />
+    <variable name="MARKER_CATEGORY" expression="&quot;enter&quot;" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="JAVA_DECLARATION" value="true" />
+    </context>
+  </template>
+  <template name="MTEX" value="private static final org.slf4j.Marker $MARKER_NAME$ = org.slf4j.MarkerFactory.getMarker(&quot;$MARKER_CATEGORY$&quot;);" description="Create a trace exit marker" toReformat="false" toShortenFQNames="true">
+    <variable name="MARKER_NAME" expression="&quot;TRACE_EXIT&quot;" defaultValue="" alwaysStopAt="true" />
+    <variable name="MARKER_CATEGORY" expression="&quot;exit&quot;" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="JAVA_DECLARATION" value="true" />
     </context>
   </template>
 </templateSet>

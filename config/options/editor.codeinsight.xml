@@ -1,52 +1,5 @@
 <application>
-  <component name="CodeFoldingSettings">
-    <option name="COLLAPSE_IMPORTS" value="false" />
-  </component>
-  <component name="CodeInsightSettings">
-    <option name="AUTO_POPUP_COMPLETION_LOOKUP" value="false" />
-    <option name="COMPLETION_CASE_SENSITIVE" value="2" />
-    <option name="SURROUND_SELECTION_ON_QUOTE_TYPED" value="true" />
-    <option name="HIGHLIGHT_IDENTIFIER_UNDER_CARET" value="false" />
-    <option name="OPTIMIZE_IMPORTS_ON_THE_FLY" value="true" />
-    <option name="ADD_UNAMBIGIOUS_IMPORTS_ON_THE_FLY" value="true" />
-    <EXCLUDED_PACKAGE NAME="com.esotericsoftware.kryo.util.IdentityMap.Values" />
-    <EXCLUDED_PACKAGE NAME="com.esotericsoftware.kryo.util.ObjectMap.Values" />
-    <EXCLUDED_PACKAGE NAME="com.google.common.util.concurrent.AbstractScheduledService.Scheduler" />
-    <EXCLUDED_PACKAGE NAME="com.sun" />
-    <EXCLUDED_PACKAGE NAME="com.sun.istack" />
-    <EXCLUDED_PACKAGE NAME="com.sun.jersey.spi.inject" />
-    <EXCLUDED_PACKAGE NAME="com.twitter.finagle.http" />
-    <EXCLUDED_PACKAGE NAME="com.yammer" />
-    <EXCLUDED_PACKAGE NAME="io.netty.util.internal" />
-    <EXCLUDED_PACKAGE NAME="java.awt" />
-    <EXCLUDED_PACKAGE NAME="javafx" />
-    <EXCLUDED_PACKAGE NAME="javax.xml.ws" />
-    <EXCLUDED_PACKAGE NAME="jdk.nashorn" />
-    <EXCLUDED_PACKAGE NAME="jersey.repackaged" />
-    <EXCLUDED_PACKAGE NAME="junit.framework" />
-    <EXCLUDED_PACKAGE NAME="org.assertj.core.api.AssertionsForClassTypes" />
-    <EXCLUDED_PACKAGE NAME="org.assertj.core.api.AssertionsForInterfaceTypes" />
-    <EXCLUDED_PACKAGE NAME="org.assertj.core.util.Lists" />
-    <EXCLUDED_PACKAGE NAME="org.glassfish" />
-    <EXCLUDED_PACKAGE NAME="org.hamcrest" />
-    <EXCLUDED_PACKAGE NAME="org.jboss.netty.handler.codec.http.HttpHeaders.Values" />
-    <EXCLUDED_PACKAGE NAME="org.jboss.netty.handler.codec.rtsp.RtspHeaders.Values" />
-    <EXCLUDED_PACKAGE NAME="org.joda.time.chrono.AssembledChronology.Fields" />
-    <EXCLUDED_PACKAGE NAME="org.junit.Assert.assertThat" />
-    <EXCLUDED_PACKAGE NAME="org.mockito.internal" />
-    <EXCLUDED_PACKAGE NAME="org.omg.CORBA" />
-    <EXCLUDED_PACKAGE NAME="scala.collection.parallel" />
-    <EXCLUDED_PACKAGE NAME="scala.concurrent" />
-    <EXCLUDED_PACKAGE NAME="scala.concurrent.Await" />
-    <EXCLUDED_PACKAGE NAME="scala.concurrent.Future" />
-    <EXCLUDED_PACKAGE NAME="scala.sys" />
-    <EXCLUDED_PACKAGE NAME="shapeless" />
-    <EXCLUDED_PACKAGE NAME="sun.misc" />
-    <EXCLUDED_PACKAGE NAME="sun.net" />
-    <EXCLUDED_PACKAGE NAME="sun.nio" />
-    <EXCLUDED_PACKAGE NAME="sun.org" />
-  </component>
-  <component name="JavaCodeFoldingSettings">
-    <option name="COLLAPSE_ONE_LINE_METHODS" value="false" />
+  <component name="Go">
+    <option name="detectGoPackageFromClipboard" value="false" />
   </component>
 </application>
