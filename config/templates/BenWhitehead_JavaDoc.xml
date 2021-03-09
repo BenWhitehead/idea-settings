@@ -1,0 +1,81 @@
+<templateSet group="BenWhitehead_JavaDoc">
+  <template name="p" value="&lt;p/&gt;$END$" description="Insert a p tag in javadoc" toReformat="false" toShortenFQNames="false">
+    <context>
+      <option name="JAVA_COMMENT" value="true" />
+    </context>
+  </template>
+  <template name="b" value="&lt;b&gt;$END$&lt;/b&gt;" description="Insert a b tag in javadoc" toReformat="false" toShortenFQNames="false">
+    <context>
+      <option name="JAVA_COMMENT" value="true" />
+    </context>
+  </template>
+  <template name="i" value="&lt;i&gt;$END$&lt;/i&gt;" description="Insert an i tag in javadoc" toReformat="false" toShortenFQNames="false">
+    <context>
+      <option name="JAVA_COMMENT" value="true" />
+    </context>
+  </template>
+  <template name="@link" value="{@link $CLASS_NAME$ $DISPLAY$}$END$" description="Insert an @link tag in javadoc" toReformat="false" toShortenFQNames="false">
+    <variable name="CLASS_NAME" expression="complete()" defaultValue="" alwaysStopAt="true" />
+    <variable name="DISPLAY" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="JAVA_COMMENT" value="true" />
+    </context>
+  </template>
+  <template name="pre" value="&lt;pre&gt;$END$&lt;/pre&gt;" description="Insert a pre tag in javadoc" toReformat="false" toShortenFQNames="false">
+    <context>
+      <option name="JAVA_COMMENT" value="true" />
+    </context>
+  </template>
+  <template name="@code" value="{@code $END$}" description="Insert an @code tag in javadoc" toReformat="false" toShortenFQNames="false">
+    <context>
+      <option name="JAVA_COMMENT" value="true" />
+    </context>
+  </template>
+  <template name="ol" value="&lt;ol&gt;$END$&lt;/ol&gt;" description="Insert an ol tag in javadoc" toReformat="false" toShortenFQNames="false">
+    <context>
+      <option name="JAVA_COMMENT" value="true" />
+    </context>
+  </template>
+  <template name="li" value="&lt;li&gt;$END$&lt;/li&gt;" description="Insert an li tag in javadoc" toReformat="false" toShortenFQNames="false">
+    <context>
+      <option name="JAVA_COMMENT" value="true" />
+    </context>
+  </template>
+  <template name="ul" value="&lt;ul&gt;$END$&lt;/ul&gt;" description="Insert an ul tag in javadoc" toReformat="false" toShortenFQNames="false">
+    <context>
+      <option name="JAVA_COMMENT" value="true" />
+    </context>
+  </template>
+  <template name="&lt;" value="&amp;lt;$END$&amp;gt;" description="Insert an html escaped &lt; and &gt; pair" toReformat="false" toShortenFQNames="false">
+    <context>
+      <option name="JAVA_COMMENT" value="true" />
+    </context>
+  </template>
+  <template name="a" value="&lt;a href=&quot;$HREF$&quot;&gt;$DISPLAY$&lt;/a&gt;$END$" description="Insert an a tag in javadoc" toReformat="false" toShortenFQNames="false">
+    <variable name="HREF" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="DISPLAY" expression="HREF" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="JAVA_COMMENT" value="true" />
+    </context>
+  </template>
+  <template name="h1" value="&lt;h1&gt;$END$&lt;/h1&gt;" description="Insert an h1 tag in javadoc" toReformat="false" toShortenFQNames="false">
+    <context>
+      <option name="JAVA_COMMENT" value="true" />
+    </context>
+  </template>
+  <template name="h2" value="&lt;h2&gt;$END$&lt;/h2&gt;" description="Insert an h1 tag in javadoc" toReformat="false" toShortenFQNames="false">
+    <context>
+      <option name="JAVA_COMMENT" value="true" />
+    </context>
+  </template>
+  <template name="h3" value="&lt;h3&gt;$END$&lt;/h3&gt;" description="Insert an h1 tag in javadoc" toReformat="false" toShortenFQNames="false">
+    <context>
+      <option name="JAVA_COMMENT" value="true" />
+    </context>
+  </template>
+  <template name="h4" value="&lt;h4&gt;$END$&lt;/h4&gt;" description="Insert an h1 tag in javadoc" toReformat="false" toShortenFQNames="false">
+    <context>
+      <option name="JAVA_COMMENT" value="true" />
+    </context>
+  </template>
+</templateSet>
