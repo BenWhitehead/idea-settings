@@ -26,7 +26,8 @@
       <option name="JAVA_COMMENT" value="true" />
     </context>
   </template>
-  <template name="@code" value="{@code $END$}" description="Insert an @code tag in javadoc" toReformat="false" toShortenFQNames="false">
+  <template name="@code" value="{@code $CODE$}$END$" description="Insert an @code tag in javadoc" toReformat="false" toShortenFQNames="false">
+    <variable name="CODE" expression="" defaultValue="" alwaysStopAt="true" />
     <context>
       <option name="JAVA_COMMENT" value="true" />
     </context>
