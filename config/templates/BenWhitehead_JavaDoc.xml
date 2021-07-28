@@ -51,7 +51,7 @@
       <option name="JAVA_COMMENT" value="true" />
     </context>
   </template>
-  <template name="a" value="&lt;a href=&quot;$HREF$&quot;&gt;$DISPLAY$&lt;/a&gt;$END$" description="Insert an a tag in javadoc" toReformat="false" toShortenFQNames="false">
+  <template name="a" value="&lt;a target=&quot;_blank&quot; rel=&quot;noopener noreferrer&quot; href=&quot;$HREF$&quot;&gt;$DISPLAY$&lt;/a&gt;$END$" description="Insert an a tag in javadoc" toReformat="false" toShortenFQNames="false">
     <variable name="HREF" expression="" defaultValue="" alwaysStopAt="true" />
     <variable name="DISPLAY" expression="HREF" defaultValue="" alwaysStopAt="true" />
     <context>
