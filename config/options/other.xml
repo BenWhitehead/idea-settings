@@ -21,7 +21,8 @@
     </local-interpreter>
   </component>
   <component name="NotRoamableUiSettings">
-    <option name="ideAAType" value="Greyscale" />
+    <option name="fontScale" value="1.0" />
+    <option name="fontSize" value="12" />
   </component>
   <component name="PropertiesComponent">
     <property name="BuildView.Splitter.Proportion" value="0.47425476" />
