@@ -11,7 +11,6 @@
     <option name="USE_INSTANCEOF_ON_EQUALS_PARAMETER" value="true" />
     <option name="HIGHLIGHT_IDENTIFIER_UNDER_CARET" value="false" />
     <option name="OPTIMIZE_IMPORTS_ON_THE_FLY" value="true" />
-    <option name="ADD_UNAMBIGIOUS_IMPORTS_ON_THE_FLY" value="true" />
     <EXCLUDED_PACKAGE NAME="com.esotericsoftware.kryo.util.IdentityMap.Values" />
     <EXCLUDED_PACKAGE NAME="com.esotericsoftware.kryo.util.ObjectMap.Values" />
     <EXCLUDED_PACKAGE NAME="com.google.common.util.concurrent.AbstractScheduledService.Scheduler" />
@@ -71,6 +70,14 @@
     <option name="IS_ANIMATED_SCROLLING" value="false" />
     <option name="IS_CAMEL_WORDS" value="true" />
     <option name="PRESELECT_RENAME" value="false" />
+  </component>
+  <component name="InlayHintsSettings">
+    <option name="disabledHintProviderIds">
+      <set>
+        <option value="JAVA.JavaLens" />
+        <option value="JAVA.RelatedProblems" />
+      </set>
+    </option>
   </component>
   <component name="TodoConfiguration">
     <pattern pattern="\btodo\b.*" />
