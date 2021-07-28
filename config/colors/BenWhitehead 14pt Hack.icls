@@ -1,10 +1,10 @@
-<scheme name="BenWhitehead 14pt Hack" version="142" parent_scheme="Default">
+<scheme name="BenWhitehead 14pt Hack" version="142" parent_scheme="Darcula">
   <option name="FONT_SCALE" value="1.0" />
   <metaInfo>
     <property name="created">2019-04-26T15:52:12</property>
     <property name="ide">idea</property>
     <property name="ideVersion">2018.3.6.0.0</property>
-    <property name="modified">2019-05-13T16:48:05</property>
+    <property name="modified">2021-03-13T14:49:16</property>
     <property name="originalScheme">BenWhitehead 12pt Hack</property>
   </metaInfo>
   <option name="LINE_SPACING" value="1.0" />
@@ -102,7 +102,12 @@
         <option name="BACKGROUND" value="3c3f41" />
       </value>
     </option>
-    <option name="BASH.FUNCTION_CALL" baseAttributes="DEFAULT_FUNCTION_CALL" />
+    <option name="BASH.EXTERNAL_COMMAND">
+      <value>
+        <option name="FOREGROUND" value="cd6b00" />
+      </value>
+    </option>
+    <option name="BASH.FUNCTION_CALL" baseAttributes="" />
     <option name="BASH.FUNCTION_DEF_NAME" baseAttributes="DEFAULT_FUNCTION_DECLARATION" />
     <option name="BASH.HERE_DOC">
       <value>
@@ -1058,6 +1063,21 @@
         <option name="FOREGROUND" value="6464" />
       </value>
     </option>
+    <option name="KOTLIN_SMART_CAST_RECEIVER">
+      <value>
+        <option name="BACKGROUND" value="8fa68f" />
+      </value>
+    </option>
+    <option name="KOTLIN_SMART_CAST_VALUE">
+      <value>
+        <option name="BACKGROUND" value="8fa68f" />
+      </value>
+    </option>
+    <option name="KOTLIN_SMART_CONSTANT">
+      <value>
+        <option name="BACKGROUND" value="8fa68f" />
+      </value>
+    </option>
     <option name="KOTLIN_STRING_ESCAPE">
       <value>
         <option name="FOREGROUND" value="bf327f" />
@@ -1163,7 +1183,6 @@
         <option name="FOREGROUND" value="ffff" />
       </value>
     </option>
-    <option name="PHP_ALIAS_REFERENCE" baseAttributes="PHP_CLASS" />
     <option name="PHP_EXEC_COMMAND_ID">
       <value>
         <option name="FOREGROUND" value="a5c25c" />
@@ -1180,13 +1199,11 @@
         <option name="FOREGROUND" value="6363" />
       </value>
     </option>
-    <option name="PHP_PARAMETER" baseAttributes="DEFAULT_PARAMETER" />
     <option name="PHP_SCRIPTING_BACKGROUND">
       <value>
         <option name="EFFECT_TYPE" value="5" />
       </value>
     </option>
-    <option name="PHP_VAR" baseAttributes="DEFAULT_LOCAL_VARIABLE" />
     <option name="PROPERTIES.INVALID_STRING_ESCAPE">
       <value>
         <option name="FOREGROUND" value="ff0000" />
@@ -1379,9 +1396,6 @@
         <option name="EFFECT_COLOR" value="cadaba" />
       </value>
     </option>
-    <option name="RUBY_EXPR_IN_STRING" baseAttributes="DEFAULT_PARENTHS" />
-    <option name="RUBY_GVAR" baseAttributes="DEFAULT_GLOBAL_VARIABLE" />
-    <option name="RUBY_HASH_ASSOC" baseAttributes="DEFAULT_OPERATION_SIGN" />
     <option name="RUBY_HEREDOC_CONTENT">
       <value>
         <option name="BACKGROUND" value="3c3f41" />
@@ -1394,11 +1408,6 @@
         <option name="EFFECT_TYPE" value="1" />
       </value>
     </option>
-    <option name="RUBY_LINE_CONTINUATION" baseAttributes="DEFAULT_COMMA" />
-    <option name="RUBY_LOCAL_VAR_ID" baseAttributes="DEFAULT_LOCAL_VARIABLE" />
-    <option name="RUBY_METHOD_NAME" baseAttributes="DEFAULT_INSTANCE_METHOD" />
-    <option name="RUBY_NTH_REF" baseAttributes="DEFAULT_PREDEFINED_SYMBOL" />
-    <option name="RUBY_PARAMETER_ID" baseAttributes="DEFAULT_PARAMETER" />
     <option name="RUBY_REGEXP">
       <value>
         <option name="FOREGROUND" value="ab71bf" />
