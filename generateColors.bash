@@ -3,7 +3,7 @@ set -o errexit -o nounset -o pipefail
 
 __SCRIPT_DIR="$( cd "$( dirname "${BASH_SOURCE[0]}" )" >/dev/null 2>&1 && pwd )"
 
-COLORS_DIR="${__SCRIPT_DIR}/config/colors"
+COLORS_DIR="${__SCRIPT_DIR}/colors"
 
 function _genColorConfig() { (
   local pt=$1

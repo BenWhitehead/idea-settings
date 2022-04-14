@@ -1,11 +1,11 @@
-system/*
+
 **/*.key
 .idea/*
 *.iml
-config/plugins/*
-config/tasks/*
-config/options/security.xml
-config/componentVersions/*
+plugins/*
+tasks/*
+options/security.xml
+componentVersions/*
 .directory
 **/.directory
 
