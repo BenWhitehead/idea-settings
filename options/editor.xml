@@ -48,6 +48,24 @@
     <EXCLUDED_PACKAGE NAME="sun.nio" />
     <EXCLUDED_PACKAGE NAME="sun.org" />
   </component>
+  <component name="CodeVisionSettings">
+    <option name="codeVisionGroupToPosition">
+      <map>
+        <entry key="inheritors" value="Default" />
+        <entry key="problems" value="Default" />
+        <entry key="references" value="Default" />
+        <entry key="vcs.code.vision" value="Default" />
+      </map>
+    </option>
+    <option name="disabledCodeVisionProviderIds">
+      <set>
+        <option value="inheritors" />
+        <option value="problems" />
+        <option value="references" />
+        <option value="vcs.code.vision" />
+      </set>
+    </option>
+  </component>
   <component name="EditorSettings">
     <option name="languageBreadcrumbsMap">
       <map>
@@ -67,10 +85,27 @@
   <component name="InlayHintsSettings">
     <option name="disabledHintProviderIds">
       <set>
+        <option value="Dockerfile.docker.inlay.hints" />
         <option value="JAVA.JavaLens" />
         <option value="JAVA.RelatedProblems" />
       </set>
     </option>
+    <option name="lastViewedProviderKeyId" value="SQL.sql.join.cardinality.hints.inner.join" />
+    <settingsMapElement>
+      <JAVA.chain.hints>
+        <Settings>
+          <option name="uniqueTypeCount" value="1" />
+        </Settings>
+      </JAVA.chain.hints>
+      <SQL.sql.join.cardinality.hints>
+        <Settings>
+          <option name="showForFullJoin" value="true" />
+          <option name="showForInnerJoin" value="true" />
+          <option name="showForLeftJoin" value="true" />
+          <option name="showForRightJoin" value="true" />
+        </Settings>
+      </SQL.sql.join.cardinality.hints>
+    </settingsMapElement>
   </component>
   <component name="TodoConfiguration">
     <pattern pattern="\btodo\b.*" />
