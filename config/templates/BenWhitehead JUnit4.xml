@@ -1,0 +1,7 @@
+<templateSet group="BenWhitehead JUnit4">
+  <template name="@ig" value="@org.junit.Ignore" description="Annotate as JUnit 4 @Ignore" toReformat="false" toShortenFQNames="false">
+    <context>
+      <option name="JAVA_DECLARATION" value="true" />
+    </context>
+  </template>
+</templateSet>

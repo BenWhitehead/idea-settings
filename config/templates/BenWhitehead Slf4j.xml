@@ -10,6 +10,7 @@
     <variable name="LOGGER" expression="variableOfType(&quot;org.slf4j.Logger&quot;)" defaultValue="&quot;LOGGER&quot;" alwaysStopAt="false" />
     <context>
       <option name="JAVA_STATEMENT" value="true" />
+      <option name="KOTLIN_STATEMENT" value="true" />
     </context>
   </template>
   <template name="logiv" value="$LOGGER$.info(&quot;$EXPR_COPY$ = {}&quot;, $EXPR$);" description="Slf4j log value at info level" toReformat="false" toShortenFQNames="true">
@@ -18,12 +19,14 @@
     <variable name="EXPR_COPY" expression="EXPR" defaultValue="" alwaysStopAt="false" />
     <context>
       <option name="JAVA_STATEMENT" value="true" />
+      <option name="KOTLIN_STATEMENT" value="true" />
     </context>
   </template>
   <template name="logd" value="$LOGGER$.debug(&quot;$END$&quot;);" description="Slf4j log at debug level" toReformat="false" toShortenFQNames="true">
     <variable name="LOGGER" expression="variableOfType(&quot;org.slf4j.Logger&quot;)" defaultValue="&quot;LOGGER&quot;" alwaysStopAt="false" />
     <context>
       <option name="JAVA_STATEMENT" value="true" />
+      <option name="KOTLIN_STATEMENT" value="true" />
     </context>
   </template>
   <template name="logdv" value="$LOGGER$.debug(&quot;$EXPR_COPY$ = {}&quot;, $EXPR$);" description="Slf4j log value at debug level" toReformat="false" toShortenFQNames="true">
@@ -32,12 +35,14 @@
     <variable name="EXPR_COPY" expression="EXPR" defaultValue="" alwaysStopAt="false" />
     <context>
       <option name="JAVA_STATEMENT" value="true" />
+      <option name="KOTLIN_STATEMENT" value="true" />
     </context>
   </template>
   <template name="logt" value="$LOGGER$.trace(&quot;$END$&quot;);" description="Slf4j log at trace level" toReformat="false" toShortenFQNames="true">
     <variable name="LOGGER" expression="variableOfType(&quot;org.slf4j.Logger&quot;)" defaultValue="&quot;LOGGER&quot;" alwaysStopAt="false" />
     <context>
       <option name="JAVA_STATEMENT" value="true" />
+      <option name="KOTLIN_STATEMENT" value="true" />
     </context>
   </template>
   <template name="logtv" value="$LOGGER$.trace(&quot;$EXPR_COPY$ = {}&quot;, $EXPR$);" description="Slf4j log value at trace level" toReformat="false" toShortenFQNames="true">
@@ -46,12 +51,14 @@
     <variable name="EXPR_COPY" expression="EXPR" defaultValue="" alwaysStopAt="false" />
     <context>
       <option name="JAVA_STATEMENT" value="true" />
+      <option name="KOTLIN_STATEMENT" value="true" />
     </context>
   </template>
   <template name="logw" value="$LOGGER$.warn(&quot;$END$&quot;);" description="Slf4j log at warn level" toReformat="false" toShortenFQNames="true">
     <variable name="LOGGER" expression="variableOfType(&quot;org.slf4j.Logger&quot;)" defaultValue="&quot;LOGGER&quot;" alwaysStopAt="false" />
     <context>
       <option name="JAVA_STATEMENT" value="true" />
+      <option name="KOTLIN_STATEMENT" value="true" />
     </context>
   </template>
   <template name="logwv" value="$LOGGER$.warn(&quot;$EXPR_COPY$ = {}&quot;, $EXPR$);" description="Slf4j log value at warn level" toReformat="false" toShortenFQNames="true">
@@ -60,12 +67,14 @@
     <variable name="EXPR_COPY" expression="EXPR" defaultValue="" alwaysStopAt="false" />
     <context>
       <option name="JAVA_STATEMENT" value="true" />
+      <option name="KOTLIN_STATEMENT" value="true" />
     </context>
   </template>
   <template name="loge" value="$LOGGER$.error(&quot;$END$&quot;);" description="Slf4j log at error level" toReformat="false" toShortenFQNames="true">
     <variable name="LOGGER" expression="variableOfType(&quot;org.slf4j.Logger&quot;)" defaultValue="&quot;LOGGER&quot;" alwaysStopAt="false" />
     <context>
       <option name="JAVA_STATEMENT" value="true" />
+      <option name="KOTLIN_STATEMENT" value="true" />
     </context>
   </template>
   <template name="logev" value="$LOGGER$.error(&quot;$EXPR_COPY$ = {}&quot;, $EXPR$);" description="Slf4j log value at error level" toReformat="false" toShortenFQNames="true">
@@ -74,6 +83,7 @@
     <variable name="EXPR_COPY" expression="EXPR" defaultValue="" alwaysStopAt="false" />
     <context>
       <option name="JAVA_STATEMENT" value="true" />
+      <option name="KOTLIN_STATEMENT" value="true" />
     </context>
   </template>
   <template name="logdm" value="$LOGGER$.debug(&quot;&gt;&gt;&gt; $METHOD_NAME$($PARAMETERS$)&quot;$POSSIBLE_COMMA$$PARAMETER_VALUES$);" description="Slf4j log method name and parameters at debug level" toReformat="true" toShortenFQNames="true">
@@ -84,6 +94,7 @@
     <variable name="PARAMETER_VALUES" expression="groovyScript(&quot;_1.collect {it}.join(', ')&quot;, methodParameters())" defaultValue="" alwaysStopAt="false" />
     <context>
       <option name="JAVA_STATEMENT" value="true" />
+      <option name="KOTLIN_STATEMENT" value="true" />
     </context>
   </template>
   <template name="logdmx" value="$LOGGER$.debug(&quot;&lt;&lt;&lt; $METHOD_NAME$($PARAMETERS$)&quot;$POSSIBLE_COMMA$$PARAMETER_VALUES$);" description="Slf4j log method name and parameters at debug level" toReformat="true" toShortenFQNames="true">
@@ -94,6 +105,7 @@
     <variable name="PARAMETER_VALUES" expression="groovyScript(&quot;_1.collect {it}.join(', ')&quot;, methodParameters())" defaultValue="" alwaysStopAt="false" />
     <context>
       <option name="JAVA_STATEMENT" value="true" />
+      <option name="KOTLIN_STATEMENT" value="true" />
     </context>
   </template>
   <template name="logtm" value="$LOGGER$.trace($TRACE_ENTER$, &quot;$METHOD_NAME$($PARAMETERS$)&quot;$POSSIBLE_COMMA$$PARAMETER_VALUES$);" description="Slf4j log entry of method w/ name and parameters at trace level" toReformat="true" toShortenFQNames="true">
@@ -105,6 +117,7 @@
     <variable name="PARAMETER_VALUES" expression="groovyScript(&quot;_1.collect {it}.join(', ')&quot;, methodParameters())" defaultValue="" alwaysStopAt="false" />
     <context>
       <option name="JAVA_STATEMENT" value="true" />
+      <option name="KOTLIN_STATEMENT" value="true" />
     </context>
   </template>
   <template name="logtmx" value="$LOGGER$.trace($TRACE_EXIT$, &quot;$METHOD_NAME$($PARAMETERS$)&quot;$POSSIBLE_COMMA$$PARAMETER_VALUES$);" description="Slf4j log exit of method w/ name and parameters at trace level" toReformat="true" toShortenFQNames="true">
@@ -116,6 +129,7 @@
     <variable name="PARAMETER_VALUES" expression="groovyScript(&quot;_1.collect {it}.join(', ')&quot;, methodParameters())" defaultValue="" alwaysStopAt="false" />
     <context>
       <option name="JAVA_STATEMENT" value="true" />
+      <option name="KOTLIN_STATEMENT" value="true" />
     </context>
   </template>
   <template name="MTE" value="private static final org.slf4j.Marker $MARKER_NAME$ = org.slf4j.MarkerFactory.getMarker(&quot;$MARKER_CATEGORY$&quot;);" description="Create a trace enter marker" toReformat="false" toShortenFQNames="true">
@@ -128,6 +142,18 @@
   <template name="MTEX" value="private static final org.slf4j.Marker $MARKER_NAME$ = org.slf4j.MarkerFactory.getMarker(&quot;$MARKER_CATEGORY$&quot;);" description="Create a trace exit marker" toReformat="false" toShortenFQNames="true">
     <variable name="MARKER_NAME" expression="&quot;TRACE_EXIT&quot;" defaultValue="" alwaysStopAt="true" />
     <variable name="MARKER_CATEGORY" expression="&quot;exit&quot;" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="JAVA_DECLARATION" value="true" />
+    </context>
+  </template>
+  <template name="KLOG" value="private val $LOGGER_NAME$: org.slf4j.Logger = org.slf4j.LoggerFactory.getLogger($LOGGER_CATEGORY$::class.java)" description="Create an Slf4j Logger" toReformat="false" toShortenFQNames="true">
+    <variable name="LOGGER_NAME" expression="suggestVariableName()" defaultValue="LOG" alwaysStopAt="true" />
+    <variable name="LOGGER_CATEGORY" expression="kotlinClassName()" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="KOTLIN_OBJECT_DECLARATION" value="true" />
+    </context>
+  </template>
+  <template name="LBRIDGE" value="static {&#10;  org.slf4j.bridge.SLF4JBridgeHandler.removeHandlersForRootLogger();&#10;  org.slf4j.bridge.SLF4JBridgeHandler.install();&#10;}$END$" description="setup jul-over-slf4j handling" toReformat="false" toShortenFQNames="true">
     <context>
       <option name="JAVA_DECLARATION" value="true" />
     </context>

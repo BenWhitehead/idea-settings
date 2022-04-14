@@ -8,6 +8,7 @@
         <option value="at com.fasterxml.jackson." />
         <option value="at com.google.api.client.http." />
         <option value="at com.google.api.gax." />
+        <option value="at com.google.cloud.RetryHelper." />
         <option value="at com.google.datastore.v1." />
         <option value="at com.google.protobuf." />
         <option value="at com.twitter." />
@@ -29,13 +30,9 @@
         <option value="at java.lang.Thread.run" />
         <option value="at java.net.InetAddress." />
         <option value="at java.net.URLClassLoader" />
-        <option value="at java.util.concurrent." />
-        <option value="at java.util.concurrent.ThreadPoolExecutor" />
         <option value="at java.util.zip." />
         <option value="at javax.servlet.http." />
-        <option value="at org.apache.catalina." />
-        <option value="at org.apache.coyote." />
-        <option value="at org.apache.tomcat." />
+        <option value="at kotlinx.serialization." />
         <option value="at org.apache.zookeeper." />
         <option value="at org.jboss.netty." />
         <option value="at org.jetbrains.plugins.scala." />
@@ -54,7 +51,14 @@
         <option value="at sun.misc." />
         <option value="at sun.net." />
         <option value="at sun.nio." />
-        <option value="at com.google.cloud.RetryHelper." />
+        <option value="X-Google-" />
+        <option value="x-google-" />
+        <option value="at net.jqwik." />
+      </list>
+    </option>
+    <option name="addedNegative">
+      <list>
+        <option value="HttpURLConnection" />
       </list>
     </option>
   </component>

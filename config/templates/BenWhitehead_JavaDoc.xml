@@ -14,7 +14,7 @@
       <option name="JAVA_COMMENT" value="true" />
     </context>
   </template>
-  <template name="@link" value="{@link $CLASS_NAME$ $DISPLAY$}$END$" description="Insert an @link tag in javadoc" toReformat="false" toShortenFQNames="false">
+  <template name="@link" value="{@link $CLASS_NAME$$DISPLAY$}$END$" description="Insert an @link tag in javadoc" toReformat="false" toShortenFQNames="false">
     <variable name="CLASS_NAME" expression="complete()" defaultValue="" alwaysStopAt="true" />
     <variable name="DISPLAY" expression="" defaultValue="" alwaysStopAt="true" />
     <context>
