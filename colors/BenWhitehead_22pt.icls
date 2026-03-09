@@ -1853,6 +1853,11 @@
         <option name="FOREGROUND" value="6298c7" />
       </value>
     </option>
+    <option name="org.rust.TYPE_PARAMETER">
+      <value>
+        <option name="FOREGROUND" value="ff0073" />
+      </value>
+    </option>
     <option name="osmorc.attributeAssignment">
       <value>
         <option name="FOREGROUND" value="ffff" />
