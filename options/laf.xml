@@ -1,5 +1,8 @@
 <application>
   <component name="LafManager">
-    <laf class-name="com.intellij.ide.ui.laf.darcula.DarculaLaf" />
+    <lafs-to-previous-schemes>
+      <laf-to-scheme laf="Darcula" scheme="BenWhitehead_16pt" />
+      <laf-to-scheme laf="ExperimentalDark" scheme="BenWhitehead_18pt" />
+    </lafs-to-previous-schemes>
   </component>
 </application>

@@ -23,6 +23,9 @@
   <component name="NotRoamableUiSettings">
     <option name="fontScale" value="1.0" />
     <option name="fontSize" value="12" />
+    <option name="presentationModeIdeScale" value="1.75" />
+    <option name="overrideLafFonts" value="true" />
+    <option name="overrideLafFontsWasMigrated" value="true" />
   </component>
   <component name="PropertiesComponent">
     <property name="BuildView.Splitter.Proportion" value="0.47425476" />

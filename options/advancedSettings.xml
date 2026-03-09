@@ -3,6 +3,10 @@
     <option name="settings">
       <map>
         <entry key="confirm.rerun.with.termination" value="false" />
+        <entry key="floating.codeToolbar.hide" value="true" />
+        <entry key="git.non.modal.commit" value="true" />
+        <entry key="ide.open.readme.md.on.startup" value="false" />
+        <entry key="ide.suppress.double.click.handler" value="true" />
         <entry key="show.diff.as.editor.tab" value="false" />
       </map>
     </option>

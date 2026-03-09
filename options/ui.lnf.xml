@@ -6,9 +6,15 @@
     <option name="UI_SHOW_MODULE_GROUPS" value="false" />
     <option name="SCOPE_TYPE" value="file" />
   </component>
+  <component name="ProjectViewFileNesting">
+    <nesting-rules />
+  </component>
   <component name="UISettings">
     <option name="EDITOR_TAB_LIMIT" value="20" />
     <option name="FULL_PATHS_IN_TITLE_BAR" value="true" />
+    <option name="SHOW_MAIN_MENU_MODE" value="MERGED_WITH_MAIN_TOOLBAR" />
+    <option name="MAX_LOOKUP_LIST_HEIGHT" value="16" />
+    <option name="MAX_LOOKUP_WIDTH2" value="786" />
     <option name="MERGE_EQUAL_STACKTRACES" value="false" />
     <option name="OVERRIDE_NONIDEA_LAF_FONTS" value="true" />
     <option name="SCROLL_TAB_LAYOUT_IN_EDITOR" value="false" />
@@ -17,6 +23,7 @@
     <option name="SHOW_NAVIGATION_BAR" value="false" />
     <option name="SHOW_TOOL_WINDOW_NUMBERS" value="true" />
     <option name="smoothScrolling" value="false" />
+    <option name="UI_DENSITY" value="COMPACT" />
     <option name="CONTRAST_SCROLLBARS" value="true" />
   </component>
 </application>

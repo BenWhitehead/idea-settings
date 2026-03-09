@@ -2,6 +2,8 @@
   <component name="ConsoleFoldingSettings">
     <option name="addedPositive">
       <list>
+        <option value="at [[Reflective call:" />
+        <option value="at [[Testing framework:" />
         <option value="at backtype.storm." />
         <option value="at cats.data." />
         <option value="at ch.qos.logback." />
@@ -33,6 +35,7 @@
         <option value="at java.util.zip." />
         <option value="at javax.servlet.http." />
         <option value="at kotlinx.serialization." />
+        <option value="at net.jqwik." />
         <option value="at org.apache.zookeeper." />
         <option value="at org.jboss.netty." />
         <option value="at org.jetbrains.plugins.scala." />
@@ -52,8 +55,7 @@
         <option value="at sun.net." />
         <option value="at sun.nio." />
         <option value="X-Google-" />
-        <option value="x-google-" />
-        <option value="at net.jqwik." />
+        <option value="at org.apache.maven.surefire." />
       </list>
     </option>
     <option name="addedNegative">
