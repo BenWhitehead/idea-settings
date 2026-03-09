@@ -1160,6 +1160,31 @@
         <option name="FOREGROUND" value="66cc" />
       </value>
     </option>
+    <option name="OC.DIRECTIVE">
+      <value>
+        <option name="FOREGROUND" value="6363" />
+      </value>
+    </option>
+    <option name="OC.MACRONAME">
+      <value>
+        <option name="FOREGROUND" value="ff0073" />
+      </value>
+    </option>
+    <option name="OC.NAMESPACE_LIKE">
+      <value>
+        <option name="FOREGROUND" value="ffc832" />
+      </value>
+    </option>
+    <option name="OC.STRUCT_LIKE">
+      <value>
+        <option name="FOREGROUND" value="ffc832" />
+      </value>
+    </option>
+    <option name="OC.TYPEDEF">
+      <value>
+        <option name="FOREGROUND" value="ff0073" />
+      </value>
+    </option>
     <option name="Operation sign">
       <value>
         <option name="FOREGROUND" value="ffff" />
