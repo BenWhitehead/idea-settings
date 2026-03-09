@@ -4,4 +4,25 @@
       <option name="JAVA_DECLARATION" value="true" />
     </context>
   </template>
+  <template name="at" value="com.google.common.truth.Truth.assertThat($actual$).$assertion$;$END$" description="Stub a Truth.assertThat()" toReformat="false" toShortenFQNames="true" useStaticImport="true">
+    <variable name="actual" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="assertion" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="JAVA_STATEMENT" value="true" />
+    </context>
+  </template>
+  <template name="awm" value="com.google.common.truth.Truth.assertWithMessage(String.format(&quot;$msg$&quot;)).that($actual$).$assertion$;$END$" description="Stub a Truth.assertWithMessage().that()" toReformat="false" toShortenFQNames="true" useStaticImport="true">
+    <variable name="msg" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="actual" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="assertion" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="JAVA_STATEMENT" value="true" />
+    </context>
+  </template>
+  <template name="@t" value="@org.junit.Test&#10;public void $testName$() {&#10;  $END$&#10;}" description="Stub a JUnit 4 @Test" toReformat="false" toShortenFQNames="true">
+    <variable name="testName" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="JAVA_DECLARATION" value="true" />
+    </context>
+  </template>
 </templateSet>

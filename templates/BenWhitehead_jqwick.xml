@@ -1,0 +1,16 @@
+<templateSet group="BenWhitehead_jqwick">
+  <template name="@ex" value="@net.jqwik.api.Example&#10;void $NAME$() {&#10;  $END$&#10;}" description="Stub an @Example" toReformat="false" toShortenFQNames="true">
+    <variable name="NAME" expression="" defaultValue="name" alwaysStopAt="true" />
+    <context>
+      <option name="JAVA_DECLARATION" value="true" />
+    </context>
+  </template>
+  <template name="@p" value="@net.jqwik.api.Property&#10;void $NAME$(@net.jqwik.api.ForAll $TYPE$ $arg$) {&#10;  $END$&#10;}" description="Stub a @Property" toReformat="false" toShortenFQNames="true">
+    <variable name="NAME" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="TYPE" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="arg" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="JAVA_DECLARATION" value="true" />
+    </context>
+  </template>
+</templateSet>

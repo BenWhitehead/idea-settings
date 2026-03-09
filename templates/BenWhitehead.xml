@@ -50,7 +50,7 @@
       <option name="JAVA_DECLARATION" value="true" />
     </context>
   </template>
-  <template name="resp" value="javax.ws.rs.core.Response.status(javax.ws.rs.core.Response.Status.$status$).$END$build()" description="Stub a JAX-RS Response" toReformat="false" toShortenFQNames="true">
+  <template name="resp-jax" value="javax.ws.rs.core.Response.status(javax.ws.rs.core.Response.Status.$status$).$END$build()" description="Stub a JAX-RS Response" toReformat="false" toShortenFQNames="true">
     <variable name="status" expression="completeSmart()" defaultValue="" alwaysStopAt="true" />
     <context>
       <option name="COMPLETION" value="true" />
@@ -81,6 +81,30 @@
     <variable name="PARAMETER_COPY" expression="PARAMETER" defaultValue="" alwaysStopAt="false" />
     <context>
       <option name="JAVA_EXPRESSION" value="true" />
+      <option name="JAVA_STATEMENT" value="true" />
+    </context>
+  </template>
+  <template name="singi" value="private static final $CLASS_NAME$ $INSTANCE$ = new $CLASS_NAME_COPY$();" description="Define a Singleton instance of a class" toReformat="false" toShortenFQNames="true">
+    <variable name="CLASS_NAME" expression="className()" defaultValue="" alwaysStopAt="true" />
+    <variable name="INSTANCE" expression="" defaultValue="&quot;INSTANCE&quot;" alwaysStopAt="true" />
+    <variable name="CLASS_NAME_COPY" expression="CLASS_NAME" defaultValue="" alwaysStopAt="false" />
+    <context>
+      <option name="JAVA_DECLARATION" value="true" />
+    </context>
+  </template>
+  <template name="svuid" value="private static final long serialVersionUID = 1L$END$;" description="Serial version UID" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="JAVA_DECLARATION" value="true" />
+    </context>
+  </template>
+  <template name="readResolve" value="/** prevent java serialization from using a new instance */&#10;private java.lang.Object readResolve() {&#10;  return INSTANCE;&#10;}&#10;" description="Genreate a readResolve method for a singletone" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="JAVA_DECLARATION" value="true" />
+    </context>
+  </template>
+  <template name="L" value="$LOCK$.lock();&#10;try { &#10;  $SELECTION$&#10;} finally {&#10;  $LOCK$.unlock();&#10;}" description="Surround with ReenterantLock.lock" toReformat="true" toShortenFQNames="true">
+    <variable name="LOCK" expression="variableOfType(&quot;java.util.concurrent.locks.ReentrantLock&quot;)" defaultValue="" alwaysStopAt="true" />
+    <context>
       <option name="JAVA_STATEMENT" value="true" />
     </context>
   </template>

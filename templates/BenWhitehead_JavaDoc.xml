@@ -52,7 +52,7 @@
       <option name="JAVA_COMMENT" value="true" />
     </context>
   </template>
-  <template name="a" value="&lt;a target=&quot;_blank&quot; rel=&quot;noopener noreferrer&quot; href=&quot;$HREF$&quot;&gt;$DISPLAY$&lt;/a&gt;$END$" description="Insert an a tag in javadoc" toReformat="false" toShortenFQNames="false">
+  <template name="a" value="&lt;a href=&quot;$HREF$&quot;&gt;$DISPLAY$&lt;/a&gt;$END$" description="Insert an a tag in javadoc" toReformat="false" toShortenFQNames="false">
     <variable name="HREF" expression="" defaultValue="" alwaysStopAt="true" />
     <variable name="DISPLAY" expression="HREF" defaultValue="" alwaysStopAt="true" />
     <context>
@@ -75,6 +75,26 @@
     </context>
   </template>
   <template name="h4" value="&lt;h4&gt;$END$&lt;/h4&gt;" description="Insert an h1 tag in javadoc" toReformat="false" toShortenFQNames="false">
+    <context>
+      <option name="JAVA_COMMENT" value="true" />
+    </context>
+  </template>
+  <template name="table" value="&lt;table&gt;$END$&lt;/table&gt;" description="Insert a table tag in javadoc" toReformat="false" toShortenFQNames="false">
+    <context>
+      <option name="JAVA_COMMENT" value="true" />
+    </context>
+  </template>
+  <template name="tr" value="&lt;tr&gt;$END$&lt;/tr&gt;" description="Insert a tr tag in javadoc" toReformat="false" toShortenFQNames="false">
+    <context>
+      <option name="JAVA_COMMENT" value="true" />
+    </context>
+  </template>
+  <template name="td" value="&lt;td&gt;$END$&lt;/td&gt;" description="Insert a td tag in javadoc" toReformat="false" toShortenFQNames="false">
+    <context>
+      <option name="JAVA_COMMENT" value="true" />
+    </context>
+  </template>
+  <template name="th" value="&lt;th&gt;$END$&lt;/th&gt;" description="Insert a th tag in javadoc" toReformat="false" toShortenFQNames="false">
     <context>
       <option name="JAVA_COMMENT" value="true" />
     </context>

@@ -153,7 +153,7 @@
       <option name="KOTLIN_OBJECT_DECLARATION" value="true" />
     </context>
   </template>
-  <template name="LBRIDGE" value="static {&#10;  org.slf4j.bridge.SLF4JBridgeHandler.removeHandlersForRootLogger();&#10;  org.slf4j.bridge.SLF4JBridgeHandler.install();&#10;}$END$" description="setup jul-over-slf4j handling" toReformat="false" toShortenFQNames="true">
+  <template name="LBRIDGE" value="static {&#10;  org.slf4j.bridge.SLF4JBridgeHandler.removeHandlersForRootLogger();&#10;  org.slf4j.bridge.SLF4JBridgeHandler.install();&#10;}$END$" description="setup jul-over-slf4j handling" toReformat="false" toShortenFQNames="false">
     <context>
       <option name="JAVA_DECLARATION" value="true" />
     </context>
